@@ -1,14 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aea05894-8c15-4ac9-bd80-bb6703489009" name="Changes" comment="" />
+    <list default="true" id="aea05894-8c15-4ac9-bd80-bb6703489009" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Difficulte1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scenes/Difficulte1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/Button.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/Button.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/Content.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/Content.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/Content_001.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/Content_001.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/Content_002.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/Content_002.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/Content_003.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/Content_003.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/Content_004.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/Content_004.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/FurnitureFront.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/FurnitureFront.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/FurnitureHandle.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/FurnitureHandle.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/FurnitureTop.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/FurnitureTop.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/Gasket.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/Gasket.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/Jar.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/Jar.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/Knob.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/Knob.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/KnobInscription.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/KnobInscription.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/Lid.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/Lid.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/OvenGlass.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/OvenGlass.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/OvenMainColor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/OvenMainColor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/OvenTop.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/OvenTop.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/Plate.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/Plate.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/PlateSupport.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/PlateSupport.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/Roof.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/Roof.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/Sink.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/Sink.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/Wood.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/Wood.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/unnamed.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kitchen/unnamed.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../uploads_files_2084417_cozinha.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../uploads_files_2084417_cozinha.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Menu.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -24,6 +81,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.environmentSetup&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -38,6 +96,16 @@
       <workItem from="1669133629873" duration="17000" />
       <workItem from="1669133678035" duration="10000" />
       <workItem from="1669134992982" duration="128000" />
+      <workItem from="1671641481209" duration="682000" />
+      <workItem from="1671642210244" duration="7000" />
+      <workItem from="1671642474259" duration="210000" />
+      <workItem from="1671642700762" duration="42000" />
+      <workItem from="1671642810345" duration="27000" />
+      <workItem from="1671643163487" duration="221000" />
+      <workItem from="1671643419717" duration="45000" />
+      <workItem from="1671643627930" duration="19000" />
+      <workItem from="1671643938197" duration="130000" />
+      <workItem from="1671646945984" duration="2000" />
     </task>
     <servers />
   </component>
