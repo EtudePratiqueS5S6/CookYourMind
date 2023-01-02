@@ -1,0 +1,258 @@
+fileFormatVersion: 2
+guid: 9fdf0fb5bf1265b49bb3eacdc0880671
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Shelf_001
+    100004: Shelf_001_Jar_001
+    100006: Shelf_001_Jar_002
+    100008: Shelf_001_Jar_003
+    100010: Shelf_001_Jar_004
+    100012: Shelf_001_Jar_005
+    100014: Shelf_002
+    100016: Shelf_002_Jar_001
+    100018: Shelf_002_Jar_002
+    100020: Shelf_002_Jar_003
+    100022: Shelf_002_Jar_004
+    100024: Shelf_002_Jar_005
+    100026: Shelf_003
+    100028: Shelf_003_Jar_001
+    100030: Shelf_003_Jar_002
+    100032: Shelf_003_Jar_003
+    100034: Shelf_003_Jar_004
+    100036: Shelf_003_Jar_005
+    100038: ShelfG_001
+    100040: ShelfG_002
+    100042: ShelfG_003
+    400000: //RootNode
+    400002: Shelf_001
+    400004: Shelf_001_Jar_001
+    400006: Shelf_001_Jar_002
+    400008: Shelf_001_Jar_003
+    400010: Shelf_001_Jar_004
+    400012: Shelf_001_Jar_005
+    400014: Shelf_002
+    400016: Shelf_002_Jar_001
+    400018: Shelf_002_Jar_002
+    400020: Shelf_002_Jar_003
+    400022: Shelf_002_Jar_004
+    400024: Shelf_002_Jar_005
+    400026: Shelf_003
+    400028: Shelf_003_Jar_001
+    400030: Shelf_003_Jar_002
+    400032: Shelf_003_Jar_003
+    400034: Shelf_003_Jar_004
+    400036: Shelf_003_Jar_005
+    400038: ShelfG_001
+    400040: ShelfG_002
+    400042: ShelfG_003
+    2100000: Material__849
+    2100002: Material__866
+    2100004: Material__851
+    2100006: Material__852
+    2100008: Material__865
+    2100010: Material__864
+    2100012: Material__863
+    2100014: Material__867
+    2100016: Material__857
+    2100018: Material__858
+    2100020: Material__862
+    2100022: Material__861
+    2100024: Material__860
+    2100026: Material__859
+    2100028: Material__850
+    2100030: Material__856
+    2100032: Material__855
+    2100034: Material__854
+    2100036: Material__853
+    2100038: Jar
+    2100040: Content_002
+    2100042: Gasket
+    2100044: Lid
+    2100046: Content_003
+    2100048: Content_001
+    2100050: Content_004
+    2100052: Wood
+    2100054: Content
+    2300000: Shelf_001
+    2300002: Shelf_001_Jar_001
+    2300004: Shelf_001_Jar_002
+    2300006: Shelf_001_Jar_003
+    2300008: Shelf_001_Jar_004
+    2300010: Shelf_001_Jar_005
+    2300012: Shelf_002
+    2300014: Shelf_002_Jar_001
+    2300016: Shelf_002_Jar_002
+    2300018: Shelf_002_Jar_003
+    2300020: Shelf_002_Jar_004
+    2300022: Shelf_002_Jar_005
+    2300024: Shelf_003
+    2300026: Shelf_003_Jar_001
+    2300028: Shelf_003_Jar_002
+    2300030: Shelf_003_Jar_003
+    2300032: Shelf_003_Jar_004
+    2300034: Shelf_003_Jar_005
+    3300000: Shelf_001
+    3300002: Shelf_001_Jar_001
+    3300004: Shelf_001_Jar_002
+    3300006: Shelf_001_Jar_003
+    3300008: Shelf_001_Jar_004
+    3300010: Shelf_001_Jar_005
+    3300012: Shelf_002
+    3300014: Shelf_002_Jar_001
+    3300016: Shelf_002_Jar_002
+    3300018: Shelf_002_Jar_003
+    3300020: Shelf_002_Jar_004
+    3300022: Shelf_002_Jar_005
+    3300024: Shelf_003
+    3300026: Shelf_003_Jar_001
+    3300028: Shelf_003_Jar_002
+    3300030: Shelf_003_Jar_003
+    3300032: Shelf_003_Jar_004
+    3300034: Shelf_003_Jar_005
+    4300000: Shelf_003_Jar_005
+    4300002: Shelf_003_Jar_004
+    4300004: Shelf_003_Jar_003
+    4300006: Shelf_003_Jar_002
+    4300008: Shelf_003_Jar_001
+    4300010: Shelf_003
+    4300012: Shelf_002_Jar_002
+    4300014: Shelf_002_Jar_001
+    4300016: Shelf_002
+    4300018: Shelf_002_Jar_005
+    4300020: Shelf_002_Jar_004
+    4300022: Shelf_002_Jar_003
+    4300024: Shelf_001_Jar_001
+    4300026: Shelf_001_Jar_005
+    4300028: Shelf_001_Jar_004
+    4300030: Shelf_001_Jar_003
+    4300032: Shelf_001
+    4300034: Shelf_001_Jar_002
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Content
+    second: {fileID: 2100000, guid: d0190bc029f60414699664e87eae3e7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Content_001
+    second: {fileID: 2100000, guid: b89f104ddf6a59f4086abecf2a23c0ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Content_002
+    second: {fileID: 2100000, guid: 72efd1b2e6e2e5442a2a7eb6a6c5b0b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Content_003
+    second: {fileID: 2100000, guid: cc89770ed8e378e4abb77efd858308a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Content_004
+    second: {fileID: 2100000, guid: 8c39d6beed745b14d84e9a5e7e43c09a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gasket
+    second: {fileID: 2100000, guid: f7fb7161cbd60d84583c7de1d80e81ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jar
+    second: {fileID: 2100000, guid: df19a1a6fbce9f3498f5300f11398a18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lid
+    second: {fileID: 2100000, guid: b161f299f79fa9c488348ef1f5226659, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: 7f2d8f560f9524c4bb1f1ad00fcf49d5, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 6
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

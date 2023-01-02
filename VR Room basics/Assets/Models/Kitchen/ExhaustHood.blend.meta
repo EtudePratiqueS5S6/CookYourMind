@@ -1,0 +1,189 @@
+fileFormatVersion: 2
+guid: 3dedcee422101f848b04e56f7d130d43
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BotOutline
+    100002: BotPart
+    100004: Button_001
+    100006: Button_002
+    100008: Button_003
+    100010: Button_004
+    100012: ButtonSupport_001
+    100014: ButtonSupport_002
+    100016: ButtonSupport_003
+    100018: ButtonSupport_004
+    100020: //RootNode
+    100022: LeftLamp
+    100024: RightLamp
+    100026: Structure
+    100028: VentilationPart
+    400000: BotOutline
+    400002: BotPart
+    400004: Button_001
+    400006: Button_002
+    400008: Button_003
+    400010: Button_004
+    400012: ButtonSupport_001
+    400014: ButtonSupport_002
+    400016: ButtonSupport_003
+    400018: ButtonSupport_004
+    400020: //RootNode
+    400022: LeftLamp
+    400024: RightLamp
+    400026: Structure
+    400028: VentilationPart
+    2100000: Support
+    2100002: Structure
+    2100004: Button
+    2100006: LightGlass
+    2100008: BotStructure
+    2300000: BotOutline
+    2300002: BotPart
+    2300004: Button_001
+    2300006: Button_002
+    2300008: Button_003
+    2300010: Button_004
+    2300012: ButtonSupport_001
+    2300014: ButtonSupport_002
+    2300016: ButtonSupport_003
+    2300018: ButtonSupport_004
+    2300020: LeftLamp
+    2300022: RightLamp
+    2300024: Structure
+    2300026: VentilationPart
+    3300000: BotOutline
+    3300002: BotPart
+    3300004: Button_001
+    3300006: Button_002
+    3300008: Button_003
+    3300010: Button_004
+    3300012: ButtonSupport_001
+    3300014: ButtonSupport_002
+    3300016: ButtonSupport_003
+    3300018: ButtonSupport_004
+    3300020: LeftLamp
+    3300022: RightLamp
+    3300024: Structure
+    3300026: VentilationPart
+    4300000: BotOutline
+    4300002: Structure
+    4300004: VentilationPart
+    4300006: Button_002
+    4300008: ButtonSupport_001
+    4300010: ButtonSupport_002
+    4300012: ButtonSupport_004
+    4300014: Button_001
+    4300016: Button_004
+    4300018: LeftLamp
+    4300020: BotPart
+    4300022: ButtonSupport_003
+    4300024: Button_003
+    4300026: RightLamp
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BotStructure
+    second: {fileID: 2100000, guid: f8046e329c34ec94285be2c30ecbf618, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Button
+    second: {fileID: 2100000, guid: 978d2e62b6cc0f041af5e860938788f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LightGlass
+    second: {fileID: 2100000, guid: 43cb97916d89bc045942831c2129274b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Structure
+    second: {fileID: 2100000, guid: ffb5f28d83ed94948acfadf52a91df1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Support
+    second: {fileID: 2100000, guid: 4381736a39a2fa740a838c522914af7b, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 6
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

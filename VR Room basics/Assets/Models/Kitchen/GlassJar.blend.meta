@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: c5c66746d7c1ed5479851ae2ac155113
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Line330
+    100004: Line331
+    100006: Line332
+    100008: Line333
+    100010: Line334
+    100012: Object004
+    100014: Shape007_001
+    100016: Shape008_001
+    100018: Gasket
+    100020: GlassContainer
+    100022: Objects
+    100024: Stopper
+    100026: WireBot
+    100028: WireSideBot
+    100030: WireSideTop
+    100032: WireTop
+    400000: //RootNode
+    400002: Line330
+    400004: Line331
+    400006: Line332
+    400008: Line333
+    400010: Line334
+    400012: Object004
+    400014: Shape007_001
+    400016: Shape008_001
+    400018: Gasket
+    400020: GlassContainer
+    400022: Objects
+    400024: Stopper
+    400026: WireBot
+    400028: WireSideBot
+    400030: WireSideTop
+    400032: WireTop
+    2100000: Material__868
+    2100002: Material__873
+    2100004: Material__871
+    2100006: Material__872
+    2100008: Material__874
+    2100010: Material__875
+    2100012: Material__869
+    2100014: Material__870
+    2100016: Wire
+    2100018: Glass
+    2100020: RubberGasket
+    2300000: Line330
+    2300002: Line331
+    2300004: Line332
+    2300006: Line333
+    2300008: Line334
+    2300010: Object004
+    2300012: Shape007_001
+    2300014: Shape008_001
+    2300016: Gasket
+    2300018: GlassContainer
+    2300020: Objects
+    2300022: Stopper
+    2300024: WireBot
+    2300026: WireSideBot
+    2300028: WireSideTop
+    2300030: WireTop
+    3300000: Line330
+    3300002: Line331
+    3300004: Line332
+    3300006: Line333
+    3300008: Line334
+    3300010: Object004
+    3300012: Shape007_001
+    3300014: Shape008_001
+    3300016: Gasket
+    3300018: GlassContainer
+    3300020: Objects
+    3300022: Stopper
+    3300024: WireBot
+    3300026: WireSideBot
+    3300028: WireSideTop
+    3300030: WireTop
+    4300000: Line330
+    4300002: Line334
+    4300004: Line333
+    4300006: Line332
+    4300008: Line331
+    4300010: Shape008_001
+    4300012: Shape007_001
+    4300014: Object004
+    4300016: WireSideBot
+    4300018: Objects
+    4300020: WireSideTop
+    4300022: Stopper
+    4300024: GlassContainer
+    4300026: WireBot
+    4300028: WireTop
+    4300030: Gasket
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: 7fe85aaef08dd2f4d8a443d67ea44c35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__871
+    second: {fileID: 2100000, guid: c7489e90fbab66240bd6158c3672cf2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__872
+    second: {fileID: 2100000, guid: f6cbc7808fc097346af3feb4adf8a7c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__873
+    second: {fileID: 2100000, guid: 515a27dfb55cfe94aa599d1e22f4bad7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__874
+    second: {fileID: 2100000, guid: e50fa455e20a92a479feab20e36ef170, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__875
+    second: {fileID: 2100000, guid: 8799f40e7d8332f4ead0a801d0f58d47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RubberGasket
+    second: {fileID: 2100000, guid: e47e2154b0046594a8d00f2ce259b23d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wire
+    second: {fileID: 2100000, guid: d39897441166cca4598a16adb7b8adf4, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 6
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

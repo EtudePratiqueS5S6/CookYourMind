@@ -1,0 +1,304 @@
+fileFormatVersion: 2
+guid: d257e32c402291a4184e861d3c651372
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BarDown
+    100002: BarUp
+    100004: CakePan
+    100006: CakePanBody
+    100008: CakePanLeftHandle
+    100010: CakePanRightHandle
+    100012: FryingPan
+    100014: FryingPanBody
+    100016: FryingPanHandle
+    100018: Funnel
+    100020: HookDown_001
+    100022: HookDown_002
+    100024: HookDown_003
+    100026: HookUp_001
+    100028: HookUp_002
+    100030: HookUp_003
+    100032: HookUp_004
+    100034: Lid
+    100036: LidBody
+    100038: LidHandle
+    100040: Line012_001
+    100042: Line996
+    100044: SaucePan
+    100046: Saucepan
+    100048: SaucePan_001
+    100050: SaucePanHandle
+    100052: SaucePanHandle_001
+    100054: SaucePanHandleFixation
+    100056: //RootNode
+    100058: Sphere006
+    100060: Sphere017
+    100062: Sphere018
+    100064: Sphere020
+    100066: Sphere021
+    100068: Funnel_001
+    400000: BarDown
+    400002: BarUp
+    400004: CakePan
+    400006: CakePanBody
+    400008: CakePanLeftHandle
+    400010: CakePanRightHandle
+    400012: FryingPan
+    400014: FryingPanBody
+    400016: FryingPanHandle
+    400018: Funnel
+    400020: HookDown_001
+    400022: HookDown_002
+    400024: HookDown_003
+    400026: HookUp_001
+    400028: HookUp_002
+    400030: HookUp_003
+    400032: HookUp_004
+    400034: Lid
+    400036: LidBody
+    400038: LidHandle
+    400040: Line012_001
+    400042: Line996
+    400044: SaucePan
+    400046: Saucepan
+    400048: SaucePan_001
+    400050: SaucePanHandle
+    400052: SaucePanHandle_001
+    400054: SaucePanHandleFixation
+    400056: //RootNode
+    400058: Sphere006
+    400060: Sphere017
+    400062: Sphere018
+    400064: Sphere020
+    400066: Sphere021
+    400068: Funnel_001
+    2100000: CakePan
+    2100002: Bar
+    2100004: SaucePan
+    2100006: Material__906
+    2100008: Material__913
+    2100010: Material__912
+    2100012: SaucePanHandle
+    2100014: Material__910
+    2100016: CakePanHandle
+    2100018: SaucePan_001
+    2100020: LidHandle
+    2100022: Lid
+    2300000: BarDown
+    2300002: BarUp
+    2300004: CakePanBody
+    2300006: CakePanLeftHandle
+    2300008: CakePanRightHandle
+    2300010: FryingPanBody
+    2300012: FryingPanHandle
+    2300014: Funnel
+    2300016: HookDown_001
+    2300018: HookDown_002
+    2300020: HookDown_003
+    2300022: HookUp_001
+    2300024: HookUp_002
+    2300026: HookUp_003
+    2300028: HookUp_004
+    2300030: LidBody
+    2300032: LidHandle
+    2300034: Line012_001
+    2300036: Line996
+    2300038: SaucePan
+    2300040: Saucepan
+    2300042: SaucePanHandle
+    2300044: SaucePanHandle_001
+    2300046: SaucePanHandleFixation
+    2300048: Sphere006
+    2300050: Sphere017
+    2300052: Sphere018
+    2300054: Sphere020
+    2300056: Sphere021
+    2300058: Funnel_001
+    3300000: BarDown
+    3300002: BarUp
+    3300004: CakePanBody
+    3300006: CakePanLeftHandle
+    3300008: CakePanRightHandle
+    3300010: FryingPanBody
+    3300012: FryingPanHandle
+    3300014: Funnel
+    3300016: HookDown_001
+    3300018: HookDown_002
+    3300020: HookDown_003
+    3300022: HookUp_001
+    3300024: HookUp_002
+    3300026: HookUp_003
+    3300028: HookUp_004
+    3300030: LidBody
+    3300032: LidHandle
+    3300034: Line012_001
+    3300036: Line996
+    3300038: SaucePan
+    3300040: Saucepan
+    3300042: SaucePanHandle
+    3300044: SaucePanHandle_001
+    3300046: SaucePanHandleFixation
+    3300048: Sphere006
+    3300050: Sphere017
+    3300052: Sphere018
+    3300054: Sphere020
+    3300056: Sphere021
+    3300058: Funnel_001
+    4300000: Funnel
+    4300002: HookUp_001
+    4300004: HookDown_001
+    4300006: SaucePan
+    4300008: HookUp_003
+    4300010: Line996
+    4300012: HookUp_002
+    4300014: HookDown_003
+    4300016: HookUp_004
+    4300018: Line012_001
+    4300020: HookDown_002
+    4300022: BarUp
+    4300024: Saucepan
+    4300026: BarDown
+    4300028: Sphere006
+    4300030: Sphere021
+    4300032: Sphere020
+    4300034: Sphere018
+    4300036: Sphere017
+    4300038: LidHandle
+    4300040: LidBody
+    4300042: SaucePanHandle
+    4300044: SaucePanHandleFixation
+    4300046: SaucePanHandle_001
+    4300048: FryingPanBody
+    4300050: FryingPanHandle
+    4300052: CakePanLeftHandle
+    4300054: CakePanBody
+    4300056: CakePanRightHandle
+    4300058: Funnel_001
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bar
+    second: {fileID: 2100000, guid: 41861abb331ac3a45ad23e6c2a5b23b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CakePan
+    second: {fileID: 2100000, guid: 808b758e4695c8f408270033332105ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CakePanHandle
+    second: {fileID: 2100000, guid: 77ae47ae67a9fc049be70a1e31b63d0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lid
+    second: {fileID: 2100000, guid: c48179bd589a5964a8ac0bcfdb07e8c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LidHandle
+    second: {fileID: 2100000, guid: dd814bb4e4b785f488d2af62d0130d1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__906
+    second: {fileID: 2100000, guid: 170d8a7493e687d448608ccecf7047c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SaucePan
+    second: {fileID: 2100000, guid: 8b11ad91a5611c64b8bec68902de0b05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SaucePanHandle
+    second: {fileID: 2100000, guid: c4bddce176a585446bfa4a8548b1c09f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SaucePan_001
+    second: {fileID: 2100000, guid: 30a507fcc2302744783d510ec9f6ac77, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 6
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

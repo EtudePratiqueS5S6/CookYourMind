@@ -1,0 +1,262 @@
+fileFormatVersion: 2
+guid: e8d84b635cd43134bb5f19dc3c7399f9
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Canvas
+    100004: Canvas_001
+    100006: Canvas_002
+    100008: Canvas_003
+    100010: Canvas_004
+    100012: Canvas_005
+    100014: Canvas_006
+    100016: Canvas_007
+    100018: Canvas_008
+    100020: Canvas_009
+    100022: Canvas_010
+    100024: Canvas_011
+    100026: Frame
+    100028: Frame_001
+    100030: Frame_002
+    100032: Frame_003
+    100034: Frame_004
+    100036: Frame_005
+    100038: Glass
+    100040: Glass_001
+    100042: Glass_002
+    100044: Glass_003
+    100046: Glass_004
+    100048: Glass_005
+    100050: Glass_006
+    400000: //RootNode
+    400002: Canvas
+    400004: Canvas_001
+    400006: Canvas_002
+    400008: Canvas_003
+    400010: Canvas_004
+    400012: Canvas_005
+    400014: Canvas_006
+    400016: Canvas_007
+    400018: Canvas_008
+    400020: Canvas_009
+    400022: Canvas_010
+    400024: Canvas_011
+    400026: Frame
+    400028: Frame_001
+    400030: Frame_002
+    400032: Frame_003
+    400034: Frame_004
+    400036: Frame_005
+    400038: Glass
+    400040: Glass_001
+    400042: Glass_002
+    400044: Glass_003
+    400046: Glass_004
+    400048: Glass_005
+    400050: Glass_006
+    2100000: Frame2
+    2100002: Canvas7
+    2100004: Glass
+    2100006: Canvas6
+    2100008: Frame5
+    2100010: Canvas5
+    2100012: Canvas4
+    2100014: Frame4
+    2100016: Frame3
+    2100018: Canvas3
+    2100020: Canvas2
+    2300000: Canvas
+    2300002: Canvas_001
+    2300004: Canvas_008
+    2300006: Canvas_009
+    2300008: Canvas_010
+    2300010: Canvas_011
+    2300012: Frame
+    2300014: Frame_001
+    2300016: Frame_002
+    2300018: Frame_003
+    2300020: Frame_004
+    2300022: Frame_005
+    2300024: Glass
+    2300026: Glass_001
+    2300028: Glass_002
+    2300030: Glass_003
+    2300032: Glass_004
+    2300034: Glass_005
+    2300036: Glass_006
+    3300000: Canvas
+    3300002: Canvas_001
+    3300004: Canvas_008
+    3300006: Canvas_009
+    3300008: Canvas_010
+    3300010: Canvas_011
+    3300012: Frame
+    3300014: Frame_001
+    3300016: Frame_002
+    3300018: Frame_003
+    3300020: Frame_004
+    3300022: Frame_005
+    3300024: Glass
+    3300026: Glass_001
+    3300028: Glass_002
+    3300030: Glass_003
+    3300032: Glass_004
+    3300034: Glass_005
+    3300036: Glass_006
+    4300000: Frame_002
+    4300002: Canvas_008
+    4300004: Glass_001
+    4300006: Frame_001
+    4300008: Canvas_001
+    4300010: Glass_005
+    4300012: Glass_004
+    4300014: Frame_005
+    4300016: Canvas_011
+    4300018: Canvas_010
+    4300020: Glass_003
+    4300022: Frame_004
+    4300024: Frame_003
+    4300026: Canvas_009
+    4300028: Glass_002
+    4300030: Canvas
+    4300032: Glass
+    4300034: Frame
+    4300036: Glass_006
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Canvas2
+    second: {fileID: 2100000, guid: b932ac1d72bfcaa498ce4d1956010fb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Canvas3
+    second: {fileID: 2100000, guid: 3d884d98793de424995c67e54ad78505, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Canvas4
+    second: {fileID: 2100000, guid: 0cb2eeceba458d945aec80b2cf7b292a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Canvas5
+    second: {fileID: 2100000, guid: 16b4ecb816e3e16469f20140b9189bd3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Canvas6
+    second: {fileID: 2100000, guid: f7ce8c292b1784f4c89d4df2b4b429e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Canvas7
+    second: {fileID: 2100000, guid: ecfe0998f5dae7943bb19e6f2024d5e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Frame2
+    second: {fileID: 2100000, guid: e75e256be99d9804e9696a1bf70e08f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Frame3
+    second: {fileID: 2100000, guid: f948545170a1c6f4fb1398d048621994, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Frame4
+    second: {fileID: 2100000, guid: 0da7faeed4d40244ba26cdc6d96fb7bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Frame5
+    second: {fileID: 2100000, guid: aec82ed8d48981c46aff8d1738156a22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: 90798559af232994aabbdb7e1359d96d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 6
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,243 @@
+fileFormatVersion: 2
+guid: f3ae4de15539aa244a904bbeca845c89
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Cylinder025
+    100002: Cylinder026
+    100004: //RootNode
+    100006: Lamp_Metropolis_92
+    100008: Lamp_Metropolis_94
+    100010: Lamp_Metropolis_96
+    100012: Lamp_Metropolis_98
+    100014: Line029
+    100016: Line031
+    100018: Line032
+    100020: Line033
+    100022: Line034
+    100024: Line035
+    100026: Sphere007
+    100028: Sphere008
+    100030: Bulb
+    100032: Cable
+    100034: Cap
+    100036: Filament
+    100038: Glass
+    100040: Hook
+    100042: Insulation
+    100044: Structure
+    400000: Cylinder025
+    400002: Cylinder026
+    400004: //RootNode
+    400006: Lamp_Metropolis_92
+    400008: Lamp_Metropolis_94
+    400010: Lamp_Metropolis_96
+    400012: Lamp_Metropolis_98
+    400014: Line029
+    400016: Line031
+    400018: Line032
+    400020: Line033
+    400022: Line034
+    400024: Line035
+    400026: Sphere007
+    400028: Sphere008
+    400030: Bulb
+    400032: Cable
+    400034: Cap
+    400036: Filament
+    400038: Glass
+    400040: Hook
+    400042: Insulation
+    400044: Structure
+    2100000: LampeStructure
+    2100002: Material__800
+    2100004: LampBulb
+    2100006: LampHook
+    2100008: LampGlass
+    2100010: LampRope
+    2100012: LampStructure
+    2100014: LampFilament
+    2300000: Cylinder025
+    2300002: Cylinder026
+    2300004: Lamp_Metropolis_92
+    2300006: Lamp_Metropolis_94
+    2300008: Lamp_Metropolis_96
+    2300010: Lamp_Metropolis_98
+    2300012: Line029
+    2300014: Line031
+    2300016: Line032
+    2300018: Line033
+    2300020: Line034
+    2300022: Line035
+    2300024: Sphere007
+    2300026: Sphere008
+    2300028: Bulb
+    2300030: Cable
+    2300032: Cap
+    2300034: Filament
+    2300036: Glass
+    2300038: Hook
+    2300040: Insulation
+    2300042: Structure
+    3300000: Cylinder025
+    3300002: Cylinder026
+    3300004: Lamp_Metropolis_92
+    3300006: Lamp_Metropolis_94
+    3300008: Lamp_Metropolis_96
+    3300010: Lamp_Metropolis_98
+    3300012: Line029
+    3300014: Line031
+    3300016: Line032
+    3300018: Line033
+    3300020: Line034
+    3300022: Line035
+    3300024: Sphere007
+    3300026: Sphere008
+    3300028: Bulb
+    3300030: Cable
+    3300032: Cap
+    3300034: Filament
+    3300036: Glass
+    3300038: Hook
+    3300040: Insulation
+    3300042: Structure
+    4300000: Line029
+    4300002: Lamp_Metropolis_98
+    4300004: Lamp_Metropolis_96
+    4300006: Lamp_Metropolis_94
+    4300008: Lamp_Metropolis_92
+    4300010: Sphere008
+    4300012: Line035
+    4300014: Cylinder026
+    4300016: Sphere007
+    4300018: Line034
+    4300020: Cylinder025
+    4300022: Line033
+    4300024: Line032
+    4300026: Line031
+    4300028: Structure
+    4300030: Filament
+    4300032: Bulb
+    4300034: Insulation
+    4300036: Cap
+    4300038: Glass
+    4300040: Cable
+    4300042: Hook
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LampBulb
+    second: {fileID: 2100000, guid: 0d97c5c1621f4944289203c785e74133, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LampFilament
+    second: {fileID: 2100000, guid: 4573fb8d6de8fbe4e8d16d2bf6343c2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LampGlass
+    second: {fileID: 2100000, guid: 09bac7e12508a9b4783c74f1743ecc7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LampHook
+    second: {fileID: 2100000, guid: e5d9135134f56bb48bf754acf4331afd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LampRope
+    second: {fileID: 2100000, guid: 883c859210cfc704891d1f4ab2b8d0eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LampStructure
+    second: {fileID: 2100000, guid: c94f1555e0974fd48893969c89282bd7, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15
+    secondaryUVHardAngle: 87
+    secondaryUVPackMargin: 6
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

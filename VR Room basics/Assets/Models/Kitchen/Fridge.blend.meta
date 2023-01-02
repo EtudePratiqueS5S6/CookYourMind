@@ -1,0 +1,148 @@
+fileFormatVersion: 2
+guid: fa3d8c113fa508749a4d0d31d9d4e97d
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: FridgeDoorBot
+    100004: FridgeDoorTop
+    100006: FridgeHandleBottom
+    100008: FridgeHandleTop
+    100010: FridgeInsideBot
+    100012: FridgeInsideTop
+    100014: FridgeOutside
+    100016: FridgeSeparation
+    400000: //RootNode
+    400002: FridgeDoorBot
+    400004: FridgeDoorTop
+    400006: FridgeHandleBottom
+    400008: FridgeHandleTop
+    400010: FridgeInsideBot
+    400012: FridgeInsideTop
+    400014: FridgeOutside
+    400016: FridgeSeparation
+    2100000: FridgeHandle
+    2100002: Fridge
+    2100004: Material__812
+    2100006: FridgeInside
+    2300000: FridgeDoorBot
+    2300002: FridgeDoorTop
+    2300004: FridgeHandleBottom
+    2300006: FridgeHandleTop
+    2300008: FridgeInsideBot
+    2300010: FridgeInsideTop
+    2300012: FridgeOutside
+    2300014: FridgeSeparation
+    3300000: FridgeDoorBot
+    3300002: FridgeDoorTop
+    3300004: FridgeHandleBottom
+    3300006: FridgeHandleTop
+    3300008: FridgeInsideBot
+    3300010: FridgeInsideTop
+    3300012: FridgeOutside
+    3300014: FridgeSeparation
+    4300000: FridgeHandleBottom
+    4300002: FridgeOutside
+    4300004: FridgeDoorBot
+    4300006: FridgeDoorTop
+    4300008: FridgeSeparation
+    4300010: FridgeHandleTop
+    4300012: FridgeInsideTop
+    4300014: FridgeInsideBot
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fridge
+    second: {fileID: 2100000, guid: 034ca7faa44bee04aa6323c718de5a98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FridgeHandle
+    second: {fileID: 2100000, guid: 995fff540cd7b244dadbaeac3574ef02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FridgeInside
+    second: {fileID: 2100000, guid: 28769aa3042d3324aaaeb84c86c15973, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 6
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
