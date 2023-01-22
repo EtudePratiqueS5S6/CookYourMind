@@ -5,11 +5,17 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/MENU.unity
-    guid: 672d4f7e7f2ca2242adaed2609b33fe3
+    guid: c7e9c67b5916d0f479a543ba37167778
   - enabled: 1
     path: Assets/Scenes/Difficulte1.unity
+    guid: 261548a5f5662c441ab881817b638867
+  - enabled: 0
+    path: Assets/Scenes/cuisine nul.unity
     guid: e93e2a7c92f0fa545828a8e5722bc1e9
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ed72be55522c8448bae8b0d66fa21adf,
