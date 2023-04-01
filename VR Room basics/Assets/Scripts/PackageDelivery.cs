@@ -1,18 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Playables;
+
 
 public class PackageDelivery : MonoBehaviour
 {
     private int time;
     private int event1;
-    public GameObject package;
+    public GameObject package,canva;
     public AudioSource sonnette;
     void Awake()
     {
         time = (int)Time.time;
-        event1 = 120;
+        event1 = 20;
     }
 
     // Update is called once per frame
@@ -22,6 +20,7 @@ public class PackageDelivery : MonoBehaviour
         if (time == event1)
         {
             package.SetActive(true);
+            canva.SetActive(true);
             sonnette.Play();
         }
     }
