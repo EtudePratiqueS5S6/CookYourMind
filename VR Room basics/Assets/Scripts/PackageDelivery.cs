@@ -1,11 +1,13 @@
 using UnityEngine;
+using UnityEngine.Rendering;
 
 
 public class PackageDelivery : MonoBehaviour
 {
     private int time;
     private int event1;
-    public GameObject package,canva;
+    public GameObject package;
+    public GameObject canva;
     public AudioSource sonnette;
     void Awake()
     {
@@ -19,10 +21,15 @@ public class PackageDelivery : MonoBehaviour
         time = (int)Time.time;
         if (time == event1)
         {
-            package.SetActive(true);
-            canva.SetActive(true);
-            sonnette.Play();
+            DisplayPackage();
         }
+    }
+
+    private void DisplayPackage()
+    {
+        canva.SetActive(true);
+        package.SetActive(true);
+        sonnette.Play();
     }
     
     
