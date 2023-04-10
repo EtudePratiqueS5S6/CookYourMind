@@ -8,6 +8,8 @@ TagManager:
   - Box
   - tableSocket
   - package
+  - knifekitchen
+  - knife
   layers:
   - Default
   - TransparentFX

@@ -1,20 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class VegetableCut : MonoBehaviour
 {
-
     public GameObject choppedVegetable;
-    void Update()
+    
+    void OnTriggerEnter(Collider other)
     {
-        void OnTriggerEnter(Collider other)
+        if (other.gameObject.CompareTag("knife"))
         {
-            if (other.gameObject.CompareTag("knife"))
-            {
-                gameObject.SetActive(false);
-                choppedVegetable.SetActive(true);
-            }
+            gameObject.SetActive(false);
+            Vector3 pos = gameObject.transform.position;
+            choppedVegetable.transform.position = pos;
+            choppedVegetable.SetActive(true);
         }
     }
 }
