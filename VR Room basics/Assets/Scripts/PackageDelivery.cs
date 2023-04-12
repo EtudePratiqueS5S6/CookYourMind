@@ -12,7 +12,7 @@ public class PackageDelivery : MonoBehaviour
     void Awake()
     {
         time = (int)Time.time;
-        event1 = 20;
+        event1 = 120;
     }
 
     // Update is called once per frame
