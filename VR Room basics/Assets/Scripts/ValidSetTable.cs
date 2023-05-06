@@ -5,7 +5,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class ValidSetTable : MonoBehaviour
 {
-    public FileName filename;
+    string filePath = Enregistrement_nom_prenom.csvFilePath;
     private GameObject[] socketList;
     private int valid;
     // Start is called before the first frame update
@@ -31,7 +31,7 @@ public class ValidSetTable : MonoBehaviour
 
         if (valid == socketList.Length)
         {
-            string path = Application.persistentDataPath + "/" + filename.fileName;
+            string path = Application.persistentDataPath + "/" + filePath;
             using (StreamWriter writer = new StreamWriter(path, false))
             {
                 writer.Write("Le patient a bien mis la table");
