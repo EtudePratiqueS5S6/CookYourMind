@@ -5,37 +5,106 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class ValidSetTable : MonoBehaviour
 {
-    string filePath = Enregistrement_nom_prenom.csvFilePath;
-    private GameObject[] socketList;
-    private int valid;
-    // Start is called before the first frame update
-    void Start()
+    private int assiettesCount = 0;
+    private int couvertsCount = 0;
+    private int verresCount = 0;
+    private bool tableSet = false;
+    private int nbAssiettes = 4;
+    private int nbVerres = 4;
+    private int nbCouverts = 8;
+    private StreamWriter sw;
+    private bool isHeaderWritten = false;
+    private string filePath = Enregistrement_nom_prenom.csvFilePath;
+
+    private void Start()
     {
-        socketList = GameObject.FindGameObjectsWithTag("tableSocket");
-        valid = 0;
+        // Ouvre le fichier CSV en mode append pour ajouter des données à la fin
+        sw = new StreamWriter(filePath, true);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter(Collider other)
     {
-        valid = 0;
-        for (int i = 0; i<socketList.Length; i++)
+        if (other.CompareTag("Assiette"))
         {
-            //SocketBool socketBool = socketList[i].GetComponent<SocketBool>();
-            XRSocketInteractor interactor = socketList[i].GetComponent<XRSocketInteractor>();
-            if (interactor.isHoverActive)
-            {
-                valid++;
-            } 
+            assiettesCount++;
+            CheckTableSet();
         }
-
-        if (valid == socketList.Length)
+        else if (other.CompareTag("Couvert"))
         {
-            string path = Application.persistentDataPath + "/" + filePath;
-            using (StreamWriter writer = new StreamWriter(path, false))
+            couvertsCount++;
+            CheckTableSet();
+        }
+        else if (other.CompareTag("Verres"))
+        {
+            verresCount++;
+            CheckTableSet();
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Assiette"))
+        {
+            assiettesCount--;
+            CheckTableSet();
+        }
+        else if (other.CompareTag("Couvert"))
+        {
+            couvertsCount--;
+            CheckTableSet();
+        }
+        else if (other.CompareTag("Verres"))
+        {
+            verresCount--;
+            CheckTableSet();
+        }
+    }
+
+    private void CheckTableSet()
+    {
+        if (assiettesCount >= nbAssiettes && couvertsCount >= nbCouverts && verresCount >= nbVerres)
+        {
+            if (!tableSet)
             {
-                writer.Write("Le patient a bien mis la table");
+                tableSet = true;
+                exportSucces();
             }
         }
+        else
+        {
+            tableSet = false;
+        }
+    }
+    
+    private void exportSucces()
+    {
+        // Écrit le titre de la nouvelle colonne si ce n'est pas déjà fait
+        if (!isHeaderWritten)
+        {
+            sw.Write(", Mettre la table");
+            isHeaderWritten = true;
+        }
+
+        // Écrit la valeur de la nouvelle colonne pour la ligne suivante
+        sw.Write(", Succes");
+
+        // Flush les données pour s'assurer qu'elles sont bien écrites dans le fichier
+        sw.Flush();
+    }
+    
+    private void OnDestroy()
+    {
+        if (!isHeaderWritten)
+        {
+            sw.Write(", Mettre la table");
+            isHeaderWritten = true;
+            // Écrit la valeur de la nouvelle colonne pour la ligne suivante
+            sw.Write(", Echec");
+
+            // Flush les données pour s'assurer qu'elles sont bien écrites dans le fichier
+            sw.Flush();
+        }
+        // Ferme le StreamWriter lorsque le jeu est quitté
+        sw.Close();
     }
 }
