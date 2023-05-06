@@ -27,8 +27,8 @@ public class Enregistrement_nom_prenom : MonoBehaviour
             // Création du fichier CSV
             using (StreamWriter writer = new StreamWriter(csvFilePath))
             {
-                writer.WriteLine("Nom,Prenom");
-                writer.WriteLine("{0},{1}", lastNameField.text, firstNameField.text);
+                writer.WriteLine("Nom\tPrenom");
+                writer.WriteLine("{0}\t{1}", lastNameField.text, firstNameField.text);
                 writer.Close();
             }
 
