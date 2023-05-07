@@ -21,8 +21,9 @@ public class PackageDelivery : MonoBehaviour
 
     void Start()
     {
-        sw = new StreamWriter(filePath, true);
+        sw = Oven.sw;
     }
+
     
     // Update is called once per frame
     void Update()
@@ -51,10 +52,6 @@ public class PackageDelivery : MonoBehaviour
                 isHeaderWritten = true;
                 sw.Flush();
             }
-
-            // Flush les données pour s'assurer qu'elles sont bien écrites dans le fichier
-            
-            sw.Close();
         }
     }
     
@@ -68,8 +65,6 @@ public class PackageDelivery : MonoBehaviour
             // Flush les données pour s'assurer qu'elles sont bien écrites dans le fichier
             sw.Flush();
         }
-        
-        // Ferme le StreamWriter lorsque le jeu est quitté
-        sw.Close();
+     
     }
 }

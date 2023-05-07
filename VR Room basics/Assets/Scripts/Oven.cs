@@ -18,7 +18,7 @@ public class Oven : MonoBehaviour
     private float cookingTimer = 0f;
     private float cookingTime = 15f; // 15 secondes
 
-    private StreamWriter sw;
+    public static StreamWriter sw;
     private bool isHeaderWritten = false;
     private string filePath = Enregistrement_nom_prenom.getFilePath();
     private Vector3 pos;
@@ -137,10 +137,6 @@ public class Oven : MonoBehaviour
             isHeaderWritten = true;
             sw.Flush();
         }
-
-        // Flush les données pour s'assurer qu'elles sont bien écrites dans le fichier
-        
-        sw.Close();
     }
 
     private void exportEchec()
@@ -152,10 +148,6 @@ public class Oven : MonoBehaviour
             isHeaderWritten = true;
             sw.Flush();
         }
-
-        // Flush les données pour s'assurer qu'elles sont bien écrites dans le fichier
-        
-        sw.Close();
     }
     
     private void OnDestroy()
