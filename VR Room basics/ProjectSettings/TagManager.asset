@@ -17,6 +17,11 @@ TagManager:
   - PlatCru
   - PlatCuit
   - PatePizza
+  - SauceTomate
+  - Frommage
+  - Veg1
+  - Veg2
+  - Veg3
   layers:
   - Default
   - TransparentFX

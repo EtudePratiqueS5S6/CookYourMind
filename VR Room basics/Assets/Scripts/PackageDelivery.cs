@@ -7,23 +7,22 @@ public class PackageDelivery : MonoBehaviour
     private int time;
     private int event1;
     public GameObject package;
-    public GameObject canva;
+    public GameObject canvaDelivery;
     public AudioSource sonnette;
     private StreamWriter sw;
     private bool isHeaderWritten = false;
-    private string filePath = Enregistrement_nom_prenom.csvFilePath;
+
     void Awake()
     {
         time = (int)Time.time;
-        event1 = 120;
-    }
-    
-    private void Start()
-    {
-        // Ouvre le fichier CSV en mode append pour ajouter des données à la fin
-        sw = new StreamWriter(filePath, true);
+        event1 = 20;
     }
 
+    void Start()
+    {
+        sw = new StreamWriter(Enregistrement_nom_prenom.csvFilePath, true);
+    }
+    
     // Update is called once per frame
     void Update()
     {
@@ -36,7 +35,7 @@ public class PackageDelivery : MonoBehaviour
 
     private void DisplayPackage()
     {
-        canva.SetActive(true);
+        canvaDelivery.SetActive(true);
         package.SetActive(true);
         sonnette.Play();
     }
@@ -47,12 +46,9 @@ public class PackageDelivery : MonoBehaviour
         {
             if (!isHeaderWritten)
             {
-                sw.Write(", Colis");
+                sw.WriteLine("Colis\tSucces");
                 isHeaderWritten = true;
             }
-
-            // Écrit la valeur de la nouvelle colonne pour la ligne suivante
-            sw.Write(", Succes");
 
             // Flush les données pour s'assurer qu'elles sont bien écrites dans le fichier
             sw.Flush();
@@ -63,10 +59,8 @@ public class PackageDelivery : MonoBehaviour
     {
         if (!isHeaderWritten)
         {
-            sw.Write(", Colis");
+            sw.WriteLine("Colis\tEchec");
             isHeaderWritten = true;
-            // Écrit la valeur de la nouvelle colonne pour la ligne suivante
-            sw.Write(", Echec");
 
             // Flush les données pour s'assurer qu'elles sont bien écrites dans le fichier
             sw.Flush();

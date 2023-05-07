@@ -7,7 +7,8 @@ public class DesacVeg2 : MonoBehaviour
 {
     private Collider collideComponent;
     private XRGrabInteractable grabComponent;
-    private void OnTriggerEnter(Collider other)
+
+    void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Veg2"))
         {
