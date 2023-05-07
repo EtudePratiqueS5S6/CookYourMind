@@ -14,9 +14,9 @@ public class Oven : MonoBehaviour
     private bool isCooking = false;
     private bool minut = true;
     private bool cuisson = true;
-    private bool brule = true;
+    private bool brule = false;
     private float cookingTimer = 0f;
-    private float cookingTime = 30f; // 4 minutes en secondes
+    private float cookingTime = 15f; // 15 secondes
 
     private StreamWriter sw;
     private bool isHeaderWritten = false;
@@ -25,9 +25,10 @@ public class Oven : MonoBehaviour
 
     private void Start()
     {
+        pos = gameObject.transform.position;
+        Debug.Log(string.Format("Initialisation de la pos de la pizza ok"));
         // Ouvre le fichier CSV en mode append pour ajouter des données à la fin
         sw = new StreamWriter(filePath, true);
-        pos = other.gameObject.transform.position;
     }
     private void Update()
     {
@@ -35,14 +36,12 @@ public class Oven : MonoBehaviour
         {
             cookingTimer += Time.deltaTime;
 
-            if (cookingTimer >= cookingTime+20f)
+            if (cookingTimer >= cookingTime + 15f)
             {
                 // Plat cramé
                 Debug.Log(string.Format("Plat cramé"));
-                platCuit.SetActive(false);
-                Vector3 pos = platCuit.transform.position;
-                platCrame.transform.position = pos;
-                platCrame.SetActive(true);
+                cuitToCrame();
+                brule = true;
                 isCooking = false;
                 // Éteindre la lumière du four
                 fourLight.SetActive(false);
@@ -56,7 +55,7 @@ public class Oven : MonoBehaviour
             {
                 // Plat cuit
                 Debug.Log(string.Format("Plat cuit"));
-                minuteur.Play();
+                playAudio();
                 cruToCuit();
                 minut = false;
                 cuisson = false;
@@ -68,7 +67,7 @@ public class Oven : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Plaque") && !isCooking)
         {
-            Debug.Log(string.Format("lancement de la cuisson"));
+            Debug.Log(string.Format("Lancement de la cuisson"));
             // Plat cru placé sur la socket
             isCooking = true;
 
@@ -84,7 +83,7 @@ public class Oven : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.CompareTag("PlatCuit"))
+        if (other.gameObject.CompareTag("Plaque") && !brule && !cuisson)
         {
             // Plat cru retiré de la socket
             isCooking = false;
@@ -111,6 +110,7 @@ public class Oven : MonoBehaviour
     {
         if (cuisson)
         {
+            Debug.Log(string.Format("Remplacement pizza cru"));
             platCru.SetActive(false);
             platCuit.transform.position = pos;
             platCuit.SetActive(true);
@@ -119,11 +119,12 @@ public class Oven : MonoBehaviour
 
     private void cuitToCrame()
     {
-        if (brule)
+        if (!brule)
         {
-            platCru.SetActive(false);
-            platCuit.transform.position = pos;
-            platCuit.SetActive(true);
+            Debug.Log(string.Format("Remplacement pizza cuite"));
+            platCuit.SetActive(false);
+            platCrame.transform.position = pos;
+            platCrame.SetActive(true);
         }
     }
 
