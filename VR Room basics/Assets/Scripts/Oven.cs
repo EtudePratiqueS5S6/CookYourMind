@@ -111,7 +111,7 @@ public class Oven : MonoBehaviour
         if (cuisson)
         {
             Debug.Log(string.Format("Remplacement pizza cru"));
-            platCru.SetActive(false);
+            platCru.SetActive(false);  
             platCuit.transform.position = pos;
             platCuit.SetActive(true);
         }
