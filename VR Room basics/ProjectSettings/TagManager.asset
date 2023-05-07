@@ -22,6 +22,8 @@ TagManager:
   - Veg1
   - Veg2
   - Veg3
+  - PlatCrame
+  - Plaque
   layers:
   - Default
   - TransparentFX

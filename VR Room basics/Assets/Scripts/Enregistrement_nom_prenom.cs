@@ -10,6 +10,11 @@ public class Enregistrement_nom_prenom : MonoBehaviour
     public TMP_InputField lastNameField;
     public static string csvFilePath;
 
+    public static string getFilePath()
+    {
+        return csvFilePath;
+    }
+
     private void Start()
     {
         // Génère un nom de fichier unique basé sur la date et l'heure actuelles

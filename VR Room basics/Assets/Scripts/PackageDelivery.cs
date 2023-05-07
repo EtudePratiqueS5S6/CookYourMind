@@ -11,6 +11,7 @@ public class PackageDelivery : MonoBehaviour
     public AudioSource sonnette;
     private StreamWriter sw;
     private bool isHeaderWritten = false;
+    private string filePath = Enregistrement_nom_prenom.getFilePath();
 
     void Awake()
     {
@@ -20,7 +21,7 @@ public class PackageDelivery : MonoBehaviour
 
     void Start()
     {
-        sw = new StreamWriter(Enregistrement_nom_prenom.csvFilePath, true);
+        sw = new StreamWriter(filePath, true);
     }
     
     // Update is called once per frame
@@ -48,10 +49,12 @@ public class PackageDelivery : MonoBehaviour
             {
                 sw.WriteLine("Colis\tSucces");
                 isHeaderWritten = true;
+                sw.Flush();
             }
 
             // Flush les données pour s'assurer qu'elles sont bien écrites dans le fichier
-            sw.Flush();
+            
+            sw.Close();
         }
     }
     
