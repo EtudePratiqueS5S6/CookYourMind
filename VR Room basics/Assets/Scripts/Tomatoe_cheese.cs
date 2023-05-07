@@ -12,9 +12,10 @@ public class Tomatoe_cheese : MonoBehaviour
         if (other.gameObject.CompareTag("PatePizza"))
         {
             gameObject.SetActive(false);
+            Vector3 pos = gameObject.transform.position;
+            disqueSauceTomate.transform.position = pos;
             disqueSauceTomate.SetActive(true);
-            disqueSauceTomate.transform.SetParent(socketPatePizza);
-            disqueSauceTomate.transform.localPosition = Vector3.zero;
+            
         }
     }
 }

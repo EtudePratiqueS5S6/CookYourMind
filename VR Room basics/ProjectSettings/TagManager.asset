@@ -10,6 +10,13 @@ TagManager:
   - package
   - knifekitchen
   - knife
+  - Trail
+  - Assiette
+  - Couvert
+  - Verres
+  - PlatCru
+  - PlatCuit
+  - PatePizza
   layers:
   - Default
   - TransparentFX
