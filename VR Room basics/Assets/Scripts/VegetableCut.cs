@@ -6,6 +6,7 @@ public class VegetableCut : MonoBehaviour
     
     void OnTriggerEnter(Collider other)
     {
+        // rempace l'objet par choppedVegetable si un objet avec le tag package entre dans le collider
         if (other.gameObject.CompareTag("knife"))
         {
             gameObject.SetActive(false);

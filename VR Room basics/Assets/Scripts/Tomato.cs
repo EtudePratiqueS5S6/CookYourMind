@@ -2,10 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Tomatoe_cheese : MonoBehaviour
+public class Tomato : MonoBehaviour
 {
     public GameObject disqueSauceTomate;
-    public Transform socketPatePizza;
 
     private void OnTriggerEnter(Collider other)
     {
