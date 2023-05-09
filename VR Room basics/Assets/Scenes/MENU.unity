@@ -5223,8 +5223,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Enregistrement_nom_prenom, Assembly-CSharp
+      - m_Target: {fileID: 832206607}
+        m_TargetAssemblyTypeName: SaveNames, Assembly-CSharp
         m_MethodName: SaveToCSV
         m_Mode: 1
         m_Arguments:
