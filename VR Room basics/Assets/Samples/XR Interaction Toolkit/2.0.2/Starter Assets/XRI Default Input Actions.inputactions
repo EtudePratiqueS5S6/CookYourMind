@@ -527,7 +527,7 @@
                     "path": "<XRController>{LeftHand}/primary2DAxis",
                     "interactions": "Sector(directions=1)",
                     "processors": "",
-                    "groups": "Noncontinuous Move",
+                    "groups": "Generic XR Controller",
                     "action": "Teleport Mode Activate",
                     "isComposite": false,
                     "isPartOfComposite": false
