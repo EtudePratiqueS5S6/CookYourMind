@@ -22,7 +22,7 @@ public class PizzaComplete : MonoBehaviour
     void Start()
     {
         //on recupère le StreamWritter deja ouvert dans le script Oven
-        sw = SaveNames.writer;
+        sw = Oven.sw;
         nom = SaveNames.getNom();
         prenom = SaveNames.getPrenom();
         ID_partie = SaveNames.getID();
@@ -56,10 +56,12 @@ public class PizzaComplete : MonoBehaviour
     public static void increaseStep()
     {
         currentStep++;
+        Debug.Log(string.Format("incr etape"));
     }
     public static void increaseIngr()
     {
         nbIngr++;
+        Debug.Log(string.Format("incr ingredient"));
     }
 
     public static void decreaseStep()

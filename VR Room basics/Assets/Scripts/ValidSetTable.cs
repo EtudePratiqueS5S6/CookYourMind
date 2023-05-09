@@ -17,7 +17,7 @@ public class ValidSetTable : MonoBehaviour
     void Start()
     {
         //on recupère le StreamWritter deja ouvert dans le script Oven
-        sw = SaveNames.writer; ;
+        sw = Oven.sw ;
         nom = SaveNames.getNom();
         prenom = SaveNames.getPrenom();
         ID_partie = SaveNames.getID();
@@ -62,5 +62,6 @@ public class ValidSetTable : MonoBehaviour
     public static void IncreaseCutleryPlaced()
     {
         nbCutleryPlaced++;
+        Debug.Log(string.Format("ajout couvert"));
     }
 }

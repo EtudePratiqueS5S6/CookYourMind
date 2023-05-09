@@ -26,7 +26,7 @@ public class PackageDelivery : MonoBehaviour
     void Start()
     {
         //on recupère le StreamWritter deja ouvert dans le script Oven
-        sw = SaveNames.writer;
+        sw = Oven.sw;
         nom = SaveNames.getNom();
         prenom = SaveNames.getPrenom();
         ID_partie = SaveNames.getID();
