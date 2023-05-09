@@ -29,15 +29,17 @@ public class ValidSetTable : MonoBehaviour
         if (nbCutleryPlaced >= nbCutlery)
         {
             exportSucces();
-            Debug.Log(string.Format("Nombre couverts ok"));
+            
         }
     }
 
     private void exportSucces()
     {
+        
         // enregistrement du succes si la pizza est complete et dans le bon ordre
         if (!isHeaderWritten)
         {
+            Debug.Log(string.Format("Nombre couverts ok"));
             sw.Write("{0}\t{1}\t{2}\tTable mise\tSucces", ID_partie, nom, prenom);
             isHeaderWritten = true;
             sw.Flush();
@@ -50,7 +52,7 @@ public class ValidSetTable : MonoBehaviour
         if (!isHeaderWritten)
         {
             //si on a jamais ecrit dans le csv alors le succes n'a pas ete enregistré donc c'est un echec
-            sw.WriteLine("{0}\t{1}\t{2}\tTable mise\tEchec", ID_partie, nom, prenom);
+            sw.Write("\n{0}\t{1}\t{2}\tTable mise\tEchec", ID_partie, nom, prenom);
             isHeaderWritten = true;
             Debug.Log(string.Format("Echec table mise"));
             // Flush les données pour s'assurer qu'elles sont bien écrites dans le fichier

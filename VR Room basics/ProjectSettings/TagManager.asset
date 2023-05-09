@@ -4,16 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - couverts
   - Box
   - tableSocket
   - package
   - knifekitchen
-  - knife
-  - Trail
-  - Assiette
-  - Couvert
-  - Verres
   - PlatCru
   - PlatCuit
   - PatePizza
@@ -27,6 +21,11 @@ TagManager:
   - SauceTomate
   - Frommage
   - Cutlery
+  - Plate
+  - Fork
+  - Knife
+  - Glass
+  - KnifeKitchen
   layers:
   - Default
   - TransparentFX

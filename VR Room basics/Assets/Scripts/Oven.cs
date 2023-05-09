@@ -170,7 +170,7 @@ public class Oven : MonoBehaviour
         if (!isHeaderWritten)
         {
             // enregestrement de l'echec si une etape autre n'a pas été respectée (expl : pizza retiree trop tot)
-            sw.Write("{0}\t{1}\t{2}\tPizza cuite\tEchec", ID_partie, nom, prenom);
+            sw.Write("\n{0}\t{1}\t{2}\tPizza cuite\tEchec", ID_partie, nom, prenom);
             isHeaderWritten = true;
 
             // Flush les données pour s'assurer qu'elles sont bien écrites dans le fichier

@@ -101,7 +101,7 @@ public class PizzaComplete : MonoBehaviour
         if (!isHeaderWritten)
         {
             //si on a jamais ecrit dans le csv alors le succes n'a pas ete enregistré donc c'est un echec
-            sw.WriteLine("{0}\t{1}\t{2}\tPizza complete\tEchec", ID_partie, nom, prenom);
+            sw.Write("\n{0}\t{1}\t{2}\tPizza complete\tEchec", ID_partie, nom, prenom);
             isHeaderWritten = true;
             Debug.Log(string.Format("Echec pizza complete"));
             // Flush les données pour s'assurer qu'elles sont bien écrites dans le fichier
