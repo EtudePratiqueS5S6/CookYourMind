@@ -6,7 +6,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class ValidSetTable : MonoBehaviour
 {
-    private int nbCutlery = 16;
+    private int nbCutlery;
     private static int nbCutleryPlaced = 0;
     private StreamWriter sw;
     private bool isHeaderWritten = false;
@@ -17,17 +17,19 @@ public class ValidSetTable : MonoBehaviour
     void Start()
     {
         //on recupère le StreamWritter deja ouvert dans le script Oven
-        sw = Oven.sw;
+        sw = SaveNames.writer; ;
         nom = SaveNames.getNom();
         prenom = SaveNames.getPrenom();
         ID_partie = SaveNames.getID();
+        nbCutlery = 16;
     }
 
     void Update()
     {
-        if (nbCutleryPlaced == nbCutlery)
+        if (nbCutleryPlaced >= nbCutlery)
         {
             exportSucces();
+            Debug.Log(string.Format("Nombre couverts ok"));
         }
     }
 
@@ -36,9 +38,10 @@ public class ValidSetTable : MonoBehaviour
         // enregistrement du succes si la pizza est complete et dans le bon ordre
         if (!isHeaderWritten)
         {
-            sw.Write("{0}\t{1}\t{2}\tPizza complete\tSucces", ID_partie, nom, prenom);
+            sw.Write("{0}\t{1}\t{2}\tTable mise\tSucces", ID_partie, nom, prenom);
             isHeaderWritten = true;
             sw.Flush();
+            Debug.Log(string.Format("Succes table mise"));
         }
     }
     
@@ -47,9 +50,9 @@ public class ValidSetTable : MonoBehaviour
         if (!isHeaderWritten)
         {
             //si on a jamais ecrit dans le csv alors le succes n'a pas ete enregistré donc c'est un echec
-            sw.WriteLine("{0}\t{1}\t{2}\tPizza complete\tEchec", ID_partie, nom, prenom);
+            sw.WriteLine("{0}\t{1}\t{2}\tTable mise\tEchec", ID_partie, nom, prenom);
             isHeaderWritten = true;
-
+            Debug.Log(string.Format("Echec table mise"));
             // Flush les données pour s'assurer qu'elles sont bien écrites dans le fichier
             sw.Flush();
         }

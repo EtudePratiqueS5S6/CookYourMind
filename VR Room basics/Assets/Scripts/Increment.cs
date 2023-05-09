@@ -8,7 +8,7 @@ public class Increment : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("PatePizza") && PizzaComplete.getStep()==0)
+        if (other.CompareTag("PatePizza") && !PizzaComplete.fini)
         {
             if (PizzaComplete.getStep() == 0)
             {
@@ -17,7 +17,7 @@ public class Increment : MonoBehaviour
             }
             PizzaComplete.increaseIngr();
         }
-        else if (other.CompareTag("TomatoSauce"))
+        else if (other.CompareTag("TomatoSauce") && !PizzaComplete.fini)
         {
             if (PizzaComplete.getStep() == 1)
             {
@@ -26,7 +26,7 @@ public class Increment : MonoBehaviour
             }
             PizzaComplete.increaseIngr();
         }
-        else if (other.CompareTag("Veg1"))
+        else if (other.CompareTag("Veg1") && !PizzaComplete.fini)
         {
             if (PizzaComplete.getStep() == 2)
             {
@@ -35,7 +35,7 @@ public class Increment : MonoBehaviour
             }
             PizzaComplete.increaseIngr();
         }
-        else if (other.CompareTag("Veg2"))
+        else if (other.CompareTag("Veg2") && !PizzaComplete.fini)
         {
             if (PizzaComplete.getStep() == 3)
             {
@@ -44,7 +44,7 @@ public class Increment : MonoBehaviour
             }
             PizzaComplete.increaseIngr();
         }
-        else if (other.CompareTag("Veg3"))
+        else if (other.CompareTag("Veg3") && !PizzaComplete.fini)
         {
             if (PizzaComplete.getStep() == 4)
             {
@@ -53,7 +53,7 @@ public class Increment : MonoBehaviour
             }
             PizzaComplete.increaseIngr();
         }
-        else if (other.CompareTag("Mozza"))
+        else if (other.CompareTag("Mozza") && !PizzaComplete.fini)
         {
             if (PizzaComplete.getStep() == 5)
             {
@@ -65,7 +65,7 @@ public class Increment : MonoBehaviour
     }
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("PatePizza"))
+        if (other.CompareTag("PatePizza") && !PizzaComplete.fini)
         {
             if (PizzaComplete.getStep() == 1)
             {
@@ -74,7 +74,7 @@ public class Increment : MonoBehaviour
             }
             PizzaComplete.decreaseNbIngr();
         }
-        else if (other.CompareTag("TomatoSauce"))
+        else if (other.CompareTag("TomatoSauce") && !PizzaComplete.fini)
         {
             if (PizzaComplete.getStep() == 2)
             {
@@ -83,7 +83,7 @@ public class Increment : MonoBehaviour
             }
             PizzaComplete.decreaseNbIngr();
         }
-        else if (other.CompareTag("Veg1"))
+        else if (other.CompareTag("Veg1") && !PizzaComplete.fini)
         {
             if (PizzaComplete.getStep() == 3)
             {
@@ -92,7 +92,7 @@ public class Increment : MonoBehaviour
             }
             PizzaComplete.decreaseNbIngr();
         }
-        else if (other.CompareTag("Veg2"))
+        else if (other.CompareTag("Veg2") && !PizzaComplete.fini)
         {
             if (PizzaComplete.getStep() == 4)
             {
@@ -101,7 +101,7 @@ public class Increment : MonoBehaviour
             }
             PizzaComplete.decreaseNbIngr();
         }
-        else if (other.CompareTag("Veg3"))
+        else if (other.CompareTag("Veg3") && !PizzaComplete.fini)
         {
             if (PizzaComplete.getStep() == 5)
             {
@@ -110,7 +110,7 @@ public class Increment : MonoBehaviour
             }
             PizzaComplete.decreaseNbIngr();
         }
-        else if (other.CompareTag("Mozza"))
+        else if (other.CompareTag("Mozza") && !PizzaComplete.fini)
         {
             if (PizzaComplete.getStep() == 6)
             {

@@ -26,7 +26,7 @@ public class PackageDelivery : MonoBehaviour
     void Start()
     {
         //on recupère le StreamWritter deja ouvert dans le script Oven
-        sw = Oven.sw;
+        sw = SaveNames.writer;
         nom = SaveNames.getNom();
         prenom = SaveNames.getPrenom();
         ID_partie = SaveNames.getID();
@@ -63,6 +63,7 @@ public class PackageDelivery : MonoBehaviour
                 sw.WriteLine("{0}\t{1}\t{2}\tColis\tSucces", ID_partie, nom, prenom);
                 isHeaderWritten = true;
                 sw.Flush();
+                Debug.Log(string.Format("Succes package delivery"));
             }
         }
     }
@@ -74,6 +75,7 @@ public class PackageDelivery : MonoBehaviour
             //si on a jamais ecrit dans le csv alors le succes n'a pas ete enregistré donc c'est un echec
             sw.WriteLine("{0}\t{1}\t{2}\tColis\tEchec", ID_partie, nom, prenom);
             isHeaderWritten = true;
+            Debug.Log(string.Format("Echec package delivery"));
 
             // Flush les données pour s'assurer qu'elles sont bien écrites dans le fichier
             sw.Flush();

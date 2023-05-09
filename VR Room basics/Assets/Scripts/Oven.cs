@@ -20,7 +20,7 @@ public class Oven : MonoBehaviour
     private Vector3 pos;
 
 
-    public static StreamWriter sw;
+    private StreamWriter sw;
     private bool isHeaderWritten = false;
     
     private string filePath = SaveNames.getFilePath();
@@ -34,7 +34,7 @@ public class Oven : MonoBehaviour
         pos = gameObject.transform.position;
         Debug.Log(string.Format("Initialisation de la pos de la pizza ok"));
         // Ouvre le fichier CSV en mode append pour ajouter des données à la fin
-        sw = new StreamWriter(filePath, true);
+        sw = SaveNames.writer;
         nom = SaveNames.getNom();
         prenom = SaveNames.getPrenom();
         ID_partie = SaveNames.getID();

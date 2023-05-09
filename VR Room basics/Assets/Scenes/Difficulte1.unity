@@ -1064,7 +1064,7 @@ GameObject:
   - component: {fileID: 77451019}
   m_Layer: 0
   m_Name: glass (4)
-  m_TagString: Verres
+  m_TagString: Cutlery
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3054,7 +3054,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5692590ef31fd1248afef69ef20a2a46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  platCru: {fileID: 1653066618}
+  platCru: {fileID: 1093797308}
   platCuit: {fileID: 743568506}
   platCrame: {fileID: 2059124707}
   minuteur: {fileID: 487773844}
@@ -9715,7 +9715,7 @@ GameObject:
   - component: {fileID: 743568507}
   m_Layer: 0
   m_Name: Pizza_cuite_pos
-  m_TagString: PlatCuit
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10277,11 +10277,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 817564336}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c005af9e4e7ac745bbfd224913b6760, type: 3}
+  m_Script: {fileID: 11500000, guid: d03e165f344287d40907edee483097cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   disqueSauceTomate: {fileID: 796293541}
-  socketPatePizza: {fileID: 898008725}
 --- !u!114 &817564342
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10614,7 +10613,7 @@ GameObject:
   - component: {fileID: 834851814}
   m_Layer: 0
   m_Name: glass (5)
-  m_TagString: Verres
+  m_TagString: Cutlery
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19678,7 +19677,7 @@ GameObject:
   - component: {fileID: 1571598713}
   m_Layer: 0
   m_Name: glass (3)
-  m_TagString: Verres
+  m_TagString: Cutlery
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21052,7 +21051,7 @@ GameObject:
   - component: {fileID: 1653066619}
   m_Layer: 0
   m_Name: Pizza_crue_pos
-  m_TagString: PlatCru
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22492,7 +22491,7 @@ GameObject:
   - component: {fileID: 1790137829}
   m_Layer: 0
   m_Name: "Pizza_cram\xE9e"
-  m_TagString: PlatCrame
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22738,14 +22737,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1822887457}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.437, y: 0, z: 0.421}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0.012, y: 0, z: 0.366}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2046921307}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &1827632345
 GameObject:
   m_ObjectHideFlags: 0
@@ -27924,7 +27923,7 @@ GameObject:
   - component: {fileID: 3469287837806286620}
   m_Layer: 0
   m_Name: knife
-  m_TagString: Couvert
+  m_TagString: Cutlery
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27961,7 +27960,7 @@ GameObject:
   - component: {fileID: 3469287837769616081}
   m_Layer: 0
   m_Name: plate (2)
-  m_TagString: Assiette
+  m_TagString: Cutlery
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27982,7 +27981,7 @@ GameObject:
   - component: {fileID: 3469287837706465071}
   m_Layer: 0
   m_Name: glass (2)
-  m_TagString: Verres
+  m_TagString: Cutlery
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28004,7 +28003,7 @@ GameObject:
   - component: {fileID: 3469287837611752024}
   m_Layer: 0
   m_Name: fork (2)
-  m_TagString: Couvert
+  m_TagString: Cutlery
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28025,7 +28024,7 @@ GameObject:
   - component: {fileID: 3469287838449135021}
   m_Layer: 0
   m_Name: plate
-  m_TagString: Assiette
+  m_TagString: Cutlery
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28047,7 +28046,7 @@ GameObject:
   - component: {fileID: 3469287838361483151}
   m_Layer: 0
   m_Name: knife (2)
-  m_TagString: Couvert
+  m_TagString: Cutlery
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28069,7 +28068,7 @@ GameObject:
   - component: {fileID: 3469287838364201709}
   m_Layer: 0
   m_Name: knife (3)
-  m_TagString: Couvert
+  m_TagString: Cutlery
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28090,7 +28089,7 @@ GameObject:
   - component: {fileID: 3469287838318263588}
   m_Layer: 0
   m_Name: plate (3)
-  m_TagString: Assiette
+  m_TagString: Cutlery
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28112,7 +28111,7 @@ GameObject:
   - component: {fileID: 3469287836628033983}
   m_Layer: 0
   m_Name: knife (1)
-  m_TagString: Couvert
+  m_TagString: Cutlery
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28134,7 +28133,7 @@ GameObject:
   - component: {fileID: 3469287837558897927}
   m_Layer: 0
   m_Name: fork (1)
-  m_TagString: Couvert
+  m_TagString: Cutlery
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28193,7 +28192,7 @@ GameObject:
   - component: {fileID: 3469287837455400839}
   m_Layer: 0
   m_Name: plate (1)
-  m_TagString: Assiette
+  m_TagString: Cutlery
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28215,7 +28214,7 @@ GameObject:
   - component: {fileID: 3469287837396844374}
   m_Layer: 0
   m_Name: fork (3)
-  m_TagString: Couvert
+  m_TagString: Cutlery
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28237,7 +28236,7 @@ GameObject:
   - component: {fileID: 3469287837309075450}
   m_Layer: 0
   m_Name: fork
-  m_TagString: Couvert
+  m_TagString: Cutlery
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

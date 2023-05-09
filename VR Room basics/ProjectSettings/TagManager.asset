@@ -24,6 +24,9 @@ TagManager:
   - Plaque
   - Mozza
   - TomatoSauce
+  - SauceTomate
+  - Frommage
+  - Cutlery
   layers:
   - Default
   - TransparentFX
