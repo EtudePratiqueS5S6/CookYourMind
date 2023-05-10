@@ -14,7 +14,6 @@ public class SaveNames : MonoBehaviour
     public static string lastName;
     public static string csvFilePath;
     public static string ID_partie;
-    private StreamWriter writer;
 
     //getter pour les donnees dont on a besoin pour le fichier csv
     public static string getFilePath()
@@ -41,20 +40,15 @@ public class SaveNames : MonoBehaviour
         string fileName = string.Format("UserData_{0}.csv", date);
         csvFilePath = Application.dataPath + "/" + fileName;
         ID_partie = date;
-        writer = new StreamWriter(csvFilePath, true);
-
     }
 
 
     public void SaveToCSV()
-    { 
-            // Cr?ation du fichier CSV
-            firstName = firstNameField.text;
-            lastName = lastNameField.text;
-            writer.Write("{0}\t{1}\t{2}", ID_partie, lastName, firstName);
-            writer.Close();
-            Debug.Log(string.Format("Fichier CSV cree"));
-            Debug.Log(string.Format("Nom"));
+    {
+        // Cr?ation du fichier CSV
+        firstName = firstNameField.text;
+        lastName = lastNameField.text;
+        Debug.Log(string.Format("Nom {0}, Prenom {1}", lastName, firstName));
         
     }
 }

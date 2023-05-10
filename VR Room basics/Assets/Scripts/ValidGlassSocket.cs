@@ -12,4 +12,12 @@ public class ValidGlassSocket : MonoBehaviour
             ValidSetTable.IncreaseCutleryPlaced();
         }
     }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("Glass"))
+        {
+            Debug.Log(string.Format("ajout verre"));
+            ValidSetTable.DecreaseCutleryPlaced();
+        }
+    }
 }

@@ -12,4 +12,12 @@ public class ValidKnifeSocket : MonoBehaviour
             ValidSetTable.IncreaseCutleryPlaced();
         }
     }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("Knife"))
+        {
+            Debug.Log(string.Format("ajout couteau"));
+            ValidSetTable.DecreaseCutleryPlaced();
+        }
+    }
 }

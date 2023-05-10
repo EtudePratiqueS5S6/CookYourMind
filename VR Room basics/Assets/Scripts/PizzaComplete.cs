@@ -67,18 +67,21 @@ public class PizzaComplete : MonoBehaviour
     public static void decreaseStep()
     {
         currentStep--;
+        Debug.Log(string.Format("decr step"));
     }
     public static void decreaseNbIngr()
     {
         nbIngr--;
+        Debug.Log(string.Format("decr ingredient"));
+
     }
-    
+
     private void exportSucces()
     {
         // enregistrement du succes si la pizza est complete et dans le bon ordre
         if (!isHeaderWritten)
         {
-            sw.Write("{0}\t{1}\t{2}\tPizza complete\tSucces", ID_partie, nom, prenom);
+            sw.Write("{0}\t{1}\t{2}\tPizza complete\tSucces\n", ID_partie, nom, prenom);
             isHeaderWritten = true;
             sw.Flush();
             Debug.Log(string.Format("Succes pizza complete"));
@@ -89,7 +92,7 @@ public class PizzaComplete : MonoBehaviour
         // enregistrement du succes si la pizza est complete et dans le bon ordre
         if (!isHeaderWritten)
         {
-            sw.Write("{0}\t{1}\t{2}\tPizza complete\tEchec : mauvais ordre", ID_partie, nom, prenom);
+            sw.Write("{0}\t{1}\t{2}\tPizza complete\tEchec : mauvais ordre\n", ID_partie, nom, prenom);
             isHeaderWritten = true;
             sw.Flush();
             Debug.Log(string.Format("Echec pizza mauvais ordre"));
@@ -101,7 +104,7 @@ public class PizzaComplete : MonoBehaviour
         if (!isHeaderWritten)
         {
             //si on a jamais ecrit dans le csv alors le succes n'a pas ete enregistré donc c'est un echec
-            sw.Write("\n{0}\t{1}\t{2}\tPizza complete\tEchec", ID_partie, nom, prenom);
+            sw.Write("{0}\t{1}\t{2}\tPizza complete\tEchec\n", ID_partie, nom, prenom);
             isHeaderWritten = true;
             Debug.Log(string.Format("Echec pizza complete"));
             // Flush les données pour s'assurer qu'elles sont bien écrites dans le fichier

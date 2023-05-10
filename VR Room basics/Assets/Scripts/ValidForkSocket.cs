@@ -12,4 +12,12 @@ public class ValidForkSocket : MonoBehaviour
             ValidSetTable.IncreaseCutleryPlaced();
         }
     }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("Fork"))
+        {
+            Debug.Log(string.Format("ajout fourchette"));
+            ValidSetTable.DecreaseCutleryPlaced();
+        }
+    }
 }

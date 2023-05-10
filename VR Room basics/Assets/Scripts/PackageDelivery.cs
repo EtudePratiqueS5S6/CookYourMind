@@ -60,7 +60,7 @@ public class PackageDelivery : MonoBehaviour
             if (!isHeaderWritten)
             {
                 //si on a pas deja ecrit dans le csv, on enregistre le succes
-                sw.Write("{0}\t{1}\t{2}\tColis\tSucces", ID_partie, nom, prenom);
+                sw.Write("{0}\t{1}\t{2}\tColis\tSucces\n", ID_partie, nom, prenom);
                 isHeaderWritten = true;
                 sw.Flush();
                 Debug.Log(string.Format("Succes package delivery"));
@@ -73,7 +73,7 @@ public class PackageDelivery : MonoBehaviour
         if (!isHeaderWritten)
         {
             //si on a jamais ecrit dans le csv alors le succes n'a pas ete enregistré donc c'est un echec
-            sw.Write("\n{0}\t{1}\t{2}\tColis\tEchec", ID_partie, nom, prenom);
+            sw.Write("{0}\t{1}\t{2}\tColis\tEchec\n", ID_partie, nom, prenom);
             isHeaderWritten = true;
             Debug.Log(string.Format("Echec package delivery"));
 

@@ -5,7 +5,12 @@ using UnityEngine;
 
 public class Oven : MonoBehaviour
 {
-    public GameObject platCru;
+    public GameObject pate;
+    public GameObject sauce;
+    public GameObject veg1;
+    public GameObject veg2;
+    public GameObject veg3;
+    public GameObject mozza;
     public GameObject platCuit;
     public GameObject platCrame;
     public AudioSource minuteur;
@@ -34,7 +39,7 @@ public class Oven : MonoBehaviour
         pos = gameObject.transform.position;
         Debug.Log(string.Format("Initialisation de la pos de la pizza ok"));
         // Ouvre le fichier CSV en mode append pour ajouter des données à la fin
-        sw = new StreamWriter(filePath, true);
+        sw = new StreamWriter(filePath);
         nom = SaveNames.getNom();
         prenom = SaveNames.getPrenom();
         ID_partie = SaveNames.getID();
@@ -66,7 +71,6 @@ public class Oven : MonoBehaviour
             {
                 //si le temps de cuisson est atteint
                 // Plat cuit
-                Debug.Log(string.Format("Plat cuit"));
                 playAudio();
                 cruToCuit();
                 minut = false;
@@ -115,6 +119,7 @@ public class Oven : MonoBehaviour
         //permet de jouer l'audio de la sonnette qu'une seule fois malgré le update()
         if (minut)
         {
+            Debug.Log(string.Format("Plat cuit"));
             minuteur.Play();
         }
     }
@@ -125,7 +130,12 @@ public class Oven : MonoBehaviour
         if (cuisson)
         {
             Debug.Log(string.Format("Remplacement pizza cru"));
-            platCru.SetActive(false);  
+            mozza.SetActive(false);  
+            veg1.SetActive(false);  
+            veg2.SetActive(false);  
+            veg3.SetActive(false);  
+            pate.SetActive(false);  
+            sauce.SetActive(false);  
             platCuit.transform.position = pos;
             platCuit.SetActive(true);
         }
@@ -148,7 +158,7 @@ public class Oven : MonoBehaviour
         // enregistrement du succes si la pizza est cuite et sortie du four à temps
         if (!isHeaderWritten)
         {
-            sw.Write("{0}\t{1}\t{2}\tPizza cuite\tSucces", ID_partie, nom, prenom);
+            sw.Write("{0}\t{1}\t{2}\tPizza cuite\tSucces\n", ID_partie, nom, prenom);
             isHeaderWritten = true;
             sw.Flush();
         }
@@ -159,7 +169,7 @@ public class Oven : MonoBehaviour
         // enregistr ment de l'echec si la pizza crame
         if (!isHeaderWritten)
         {
-            sw.Write("{0}\t{1}\t{2}\tPizza cuite\tEchec : pizza cramée", ID_partie, nom, prenom);
+            sw.Write("{0}\t{1}\t{2}\tPizza cuite\tEchec : pizza cramée\n", ID_partie, nom, prenom);
             isHeaderWritten = true;
             sw.Flush();
         }
@@ -170,7 +180,7 @@ public class Oven : MonoBehaviour
         if (!isHeaderWritten)
         {
             // enregestrement de l'echec si une etape autre n'a pas été respectée (expl : pizza retiree trop tot)
-            sw.Write("\n{0}\t{1}\t{2}\tPizza cuite\tEchec", ID_partie, nom, prenom);
+            sw.Write("{0}\t{1}\t{2}\tPizza cuite\tEchec\n", ID_partie, nom, prenom);
             isHeaderWritten = true;
 
             // Flush les données pour s'assurer qu'elles sont bien écrites dans le fichier

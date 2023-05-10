@@ -12,4 +12,12 @@ public class ValidPlateSocket : MonoBehaviour
             ValidSetTable.IncreaseCutleryPlaced();
         }
     }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("Plate"))
+        {
+            Debug.Log(string.Format("ajout assiette"));
+            ValidSetTable.DecreaseCutleryPlaced();
+        }
+    }
 }

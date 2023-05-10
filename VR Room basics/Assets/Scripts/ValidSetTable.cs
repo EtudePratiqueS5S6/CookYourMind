@@ -40,7 +40,7 @@ public class ValidSetTable : MonoBehaviour
         if (!isHeaderWritten)
         {
             Debug.Log(string.Format("Nombre couverts ok"));
-            sw.Write("{0}\t{1}\t{2}\tTable mise\tSucces", ID_partie, nom, prenom);
+            sw.Write("{0}\t{1}\t{2}\tTable mise\tSucces\n", ID_partie, nom, prenom);
             isHeaderWritten = true;
             sw.Flush();
             Debug.Log(string.Format("Succes table mise"));
@@ -52,7 +52,7 @@ public class ValidSetTable : MonoBehaviour
         if (!isHeaderWritten)
         {
             //si on a jamais ecrit dans le csv alors le succes n'a pas ete enregistré donc c'est un echec
-            sw.Write("\n{0}\t{1}\t{2}\tTable mise\tEchec", ID_partie, nom, prenom);
+            sw.Write("{0}\t{1}\t{2}\tTable mise\tEchec\n", ID_partie, nom, prenom);
             isHeaderWritten = true;
             Debug.Log(string.Format("Echec table mise"));
             // Flush les données pour s'assurer qu'elles sont bien écrites dans le fichier
@@ -64,6 +64,9 @@ public class ValidSetTable : MonoBehaviour
     public static void IncreaseCutleryPlaced()
     {
         nbCutleryPlaced++;
-        Debug.Log(string.Format("ajout couvert"));
+    }
+    public static void DecreaseCutleryPlaced()
+    {
+        nbCutleryPlaced--;
     }
 }
