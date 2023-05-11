@@ -26,6 +26,15 @@ TagManager:
   - Knife
   - Glass
   - KnifeKitchen
+  - Trail
+  - Vase
+  - Controller
+  - Books
+  - Painting
+  - Pillow1
+  - Pillow2
+  - Pillow3
+  - Pillow4
   layers:
   - Default
   - TransparentFX
