@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class RecipeDisappearing : MonoBehaviour
 {
-    private GameObject notebook;
     private int time;
     private int event1;
 
@@ -22,7 +21,7 @@ public class RecipeDisappearing : MonoBehaviour
         if (time == event1)
         {
             //quand on arrive à la fin du timer plus de recette
-            notebook.SetActive(false);
+            gameObject.SetActive(false);
             Debug.Log("Plus de recette");
         }
     }

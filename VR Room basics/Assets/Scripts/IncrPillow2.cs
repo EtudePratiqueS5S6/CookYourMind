@@ -8,20 +8,20 @@ public class IncrPillow2 : MonoBehaviour
     {
         if (other.CompareTag("Pillow2"))
         {
-            Tidy.IncrNbrObject();
-            Tidy.IncrNbrPillow();
+            TidyDifficulty3.IncrNbrObject();
+            TidyDifficulty3.IncrNbrPillow();
         }
         if (other.CompareTag("Pillow3"))
         {
-            Tidy.IncrNbrObject();
+            TidyDifficulty3.IncrNbrObject();
         }
         if (other.CompareTag("Pillow4"))
         {
-            Tidy.IncrNbrObject();
+            TidyDifficulty3.IncrNbrObject();
         }
         if (other.CompareTag("Pillow1"))
         {
-            Tidy.IncrNbrObject();
+            TidyDifficulty3.IncrNbrObject();
         }
 
     }
@@ -29,20 +29,20 @@ public class IncrPillow2 : MonoBehaviour
     {
         if (other.CompareTag("Pillow2"))
         {
-            Tidy.DesincrNbrObject();
-            Tidy.DesincrNbrPillow();
+            TidyDifficulty3.DesincrNbrObject();
+            TidyDifficulty3.DesincrNbrPillow();
         }
         if (other.CompareTag("Pillow3"))
         {
-            Tidy.DesincrNbrObject();
+            TidyDifficulty3.DesincrNbrObject();
         }
         if (other.CompareTag("Pillow4"))
         {
-            Tidy.DesincrNbrObject();
+            TidyDifficulty3.DesincrNbrObject();
         }
         if (other.CompareTag("Pillow1"))
         {
-            Tidy.DesincrNbrObject();
+            TidyDifficulty3.DesincrNbrObject();
             
         }
 

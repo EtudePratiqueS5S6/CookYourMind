@@ -3,27 +3,26 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 
-
-public class Tidy : MonoBehaviour
+public class TidyDifficulty3 : MonoBehaviour
 {
-    public GameObject tidy1; 
-    public GameObject tidy2; 
-    public GameObject tidy3; 
-    public GameObject tidy4; 
-    public GameObject tidy5; 
+    public GameObject tidy1;
+    public GameObject tidy2;
+    public GameObject tidy3;
+    public GameObject tidy4;
+    public GameObject tidy5;
     public GameObject tidy6;
-    public GameObject tidy7; 
-    public GameObject tidy8; 
+    public GameObject tidy7;
+    public GameObject tidy8;
     public GameObject tidy9;
-    public GameObject untidy1; 
-    public GameObject untidy2; 
-    public GameObject untidy3; 
-    public GameObject untidy4; 
-    public GameObject untidy5; 
+    public GameObject untidy1;
+    public GameObject untidy2;
+    public GameObject untidy3;
+    public GameObject untidy4;
+    public GameObject untidy5;
     public GameObject untidy6;
-    public GameObject untidy7; 
-    public GameObject untidy8; 
-    public GameObject untidy9; 
+    public GameObject untidy7;
+    public GameObject untidy8;
+    public GameObject untidy9;
     private static int nbrTidyObjects;
     private static int nbrPillow;
 
@@ -52,9 +51,10 @@ public class Tidy : MonoBehaviour
         prenom = SaveNames.getPrenom();
         ID_partie = SaveNames.getID();
         nbrTidyObjects = 0;
+        nbrPillow = 0;
     }
 
-    
+
 
     void Update()
     {
@@ -62,11 +62,11 @@ public class Tidy : MonoBehaviour
         {
             EnableObjectsAfterDuration();
         }
-        if (nbrTidyObjects == 9 && nbrPillow !=4)
+        if (nbrTidyObjects == 9 && nbrPillow != 4)
         {
             ExportHalfSucces();
         }
-        if(nbrTidyObjects == 9 && nbrPillow == 4)
+        if (nbrTidyObjects == 9 && nbrPillow == 4)
         {
             ExportFullSucces();
         }
@@ -141,5 +141,4 @@ public class Tidy : MonoBehaviour
             Debug.Log(string.Format("Piece rangée et oreillers dans le bon ordre"));
         }
     }
-
 }
