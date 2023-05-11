@@ -1180,7 +1180,7 @@ GameObject:
   - component: {fileID: 78452497}
   m_Layer: 0
   m_Name: Books untidy
-  m_TagString: Books
+  m_TagString: Untidy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3288,6 +3288,7 @@ GameObject:
   - component: {fileID: 221814977}
   - component: {fileID: 221814979}
   - component: {fileID: 221814978}
+  - component: {fileID: 221814980}
   m_Layer: 0
   m_Name: socketPainting
   m_TagString: Untagged
@@ -3374,6 +3375,18 @@ MonoBehaviour:
   m_SocketActive: 1
   m_InteractableHoverScale: 1
   m_RecycleDelayTime: 1
+--- !u!114 &221814980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221814976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a1325c2cec1fe438ad03cd9591474b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &233549878
 GameObject:
   m_ObjectHideFlags: 0
@@ -9142,7 +9155,7 @@ GameObject:
   - component: {fileID: 645432538}
   m_Layer: 2
   m_Name: Vase untidy
-  m_TagString: Vase
+  m_TagString: Untidy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10244,6 +10257,7 @@ GameObject:
   - component: {fileID: 779360993}
   - component: {fileID: 779360995}
   - component: {fileID: 779360994}
+  - component: {fileID: 779360996}
   m_Layer: 0
   m_Name: books_socket
   m_TagString: Untagged
@@ -10330,6 +10344,18 @@ MonoBehaviour:
   m_SocketActive: 1
   m_InteractableHoverScale: 1
   m_RecycleDelayTime: 1
+--- !u!114 &779360996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779360992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a1325c2cec1fe438ad03cd9591474b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &794670749
 GameObject:
   m_ObjectHideFlags: 0
@@ -10927,6 +10953,7 @@ GameObject:
   - component: {fileID: 819030147}
   - component: {fileID: 819030149}
   - component: {fileID: 819030148}
+  - component: {fileID: 819030150}
   m_Layer: 0
   m_Name: Cont1 Socket
   m_TagString: Untagged
@@ -11013,6 +11040,18 @@ MonoBehaviour:
   m_SocketActive: 1
   m_InteractableHoverScale: 1
   m_RecycleDelayTime: 1
+--- !u!114 &819030150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819030146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a1325c2cec1fe438ad03cd9591474b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &829808847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13168,6 +13207,7 @@ GameObject:
   - component: {fileID: 903603824}
   - component: {fileID: 903603826}
   - component: {fileID: 903603825}
+  - component: {fileID: 903603827}
   m_Layer: 0
   m_Name: Pillow4_socket
   m_TagString: Untagged
@@ -13254,6 +13294,18 @@ MonoBehaviour:
   m_SocketActive: 1
   m_InteractableHoverScale: 1
   m_RecycleDelayTime: 1
+--- !u!114 &903603827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 903603823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce6756c7c0a0966428f4efdc7cfb8102, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &911151171
 GameObject:
   m_ObjectHideFlags: 0
@@ -13926,7 +13978,7 @@ Transform:
   - {fileID: 924844016}
   - {fileID: 40718312}
   m_Father: {fileID: 1405919113}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &924844015
 GameObject:
@@ -14211,8 +14263,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Vous devez :\n - pr\xE9parer la pizza en suivant la recette;\n - la cuire;\n
-    - mettre la table;\n - r\xE9cup\xE9rer le colis et le ranger dans la chambre;"
+  m_text: "Vous devez :\n - pr\xE9parer la pizza en suivant la recette;\n - la cuire;\n-
+    mettre la table;\n - r\xE9cup\xE9rer le colis et le ranger dans la chambre;"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -14300,6 +14352,7 @@ GameObject:
   - component: {fileID: 943327573}
   - component: {fileID: 943327575}
   - component: {fileID: 943327574}
+  - component: {fileID: 943327576}
   m_Layer: 0
   m_Name: Vase_socket
   m_TagString: Untagged
@@ -14386,6 +14439,18 @@ MonoBehaviour:
   m_SocketActive: 1
   m_InteractableHoverScale: 1
   m_RecycleDelayTime: 1
+--- !u!114 &943327576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943327572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a1325c2cec1fe438ad03cd9591474b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &952194249
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14542,6 +14607,7 @@ GameObject:
   - component: {fileID: 959932448}
   - component: {fileID: 959932450}
   - component: {fileID: 959932449}
+  - component: {fileID: 959932451}
   m_Layer: 0
   m_Name: Cont2 Socket
   m_TagString: Untagged
@@ -14628,6 +14694,18 @@ MonoBehaviour:
   m_SocketActive: 1
   m_InteractableHoverScale: 1
   m_RecycleDelayTime: 1
+--- !u!114 &959932451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 959932447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a1325c2cec1fe438ad03cd9591474b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &990218698
 GameObject:
   m_ObjectHideFlags: 0
@@ -16671,6 +16749,7 @@ GameObject:
   - component: {fileID: 1156998288}
   - component: {fileID: 1156998290}
   - component: {fileID: 1156998289}
+  - component: {fileID: 1156998291}
   m_Layer: 0
   m_Name: Pillow2_socket
   m_TagString: Untagged
@@ -16757,6 +16836,18 @@ MonoBehaviour:
   m_SocketActive: 1
   m_InteractableHoverScale: 1
   m_RecycleDelayTime: 1
+--- !u!114 &1156998291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156998287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57b9b558d16152641bb808f7111050f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1193739407
 GameObject:
   m_ObjectHideFlags: 0
@@ -18618,7 +18709,7 @@ GameObject:
   - component: {fileID: 1384726083}
   m_Layer: 0
   m_Name: Ps5 Cont2 untidy
-  m_TagString: Controller
+  m_TagString: Untidy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18964,8 +19055,8 @@ Transform:
   - {fileID: 584488473}
   - {fileID: 1237507072}
   - {fileID: 745699443}
-  - {fileID: 921146996}
   - {fileID: 1928294634}
+  - {fileID: 921146996}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: -19.793, z: 0}
@@ -22485,7 +22576,7 @@ GameObject:
   - component: {fileID: 1702458113}
   m_Layer: 0
   m_Name: Painting untidy
-  m_TagString: Painting
+  m_TagString: Untidy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25030,6 +25121,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1928294634}
+  - component: {fileID: 1928294635}
   m_Layer: 0
   m_Name: Tidy the room
   m_TagString: Untagged
@@ -25072,8 +25164,39 @@ Transform:
   - {fileID: 7994880589047911400}
   - {fileID: 2122756164528844852}
   m_Father: {fileID: 1405919113}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1928294635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1928294633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04dddc5e53dbd2e4f8354911cc647cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tidy1: {fileID: 1406574022985459823}
+  tidy2: {fileID: 7680306882866410672}
+  tidy3: {fileID: 7846167669493067059}
+  tidy4: {fileID: 4300868251209000738}
+  tidy5: {fileID: 4445998969632137391}
+  tidy6: {fileID: 2112408558}
+  tidy7: {fileID: 716479447}
+  tidy8: {fileID: 867753028}
+  tidy9: {fileID: 1968168261}
+  untidy1: {fileID: 2093568101}
+  untidy2: {fileID: 1384726081}
+  untidy3: {fileID: 645432536}
+  untidy4: {fileID: 78452495}
+  untidy5: {fileID: 1702458111}
+  untidy6: {fileID: 886232230}
+  untidy7: {fileID: 915322324}
+  untidy8: {fileID: 1337099586}
+  untidy9: {fileID: 2133685800}
+  kids: {fileID: 0}
 --- !u!1 &1934107538
 GameObject:
   m_ObjectHideFlags: 0
@@ -27350,7 +27473,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a564edbd0022e54784f96dcd1a55c96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duration: 180
 --- !u!1 &2052573644
 GameObject:
   m_ObjectHideFlags: 0
@@ -28184,7 +28306,7 @@ GameObject:
   - component: {fileID: 2093568103}
   m_Layer: 0
   m_Name: Ps5 Cont1 untidy
-  m_TagString: Controller
+  m_TagString: Untidy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28494,6 +28616,7 @@ GameObject:
   - component: {fileID: 2108518069}
   - component: {fileID: 2108518071}
   - component: {fileID: 2108518070}
+  - component: {fileID: 2108518072}
   m_Layer: 0
   m_Name: Pillow3_socket
   m_TagString: Untagged
@@ -28580,6 +28703,18 @@ MonoBehaviour:
   m_SocketActive: 1
   m_InteractableHoverScale: 1
   m_RecycleDelayTime: 1
+--- !u!114 &2108518072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2108518068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4576f97770379b545b9ef671d4a56be9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2112408558
 GameObject:
   m_ObjectHideFlags: 0
@@ -29475,6 +29610,7 @@ GameObject:
   - component: {fileID: 2144900751}
   - component: {fileID: 2144900753}
   - component: {fileID: 2144900752}
+  - component: {fileID: 2144900754}
   m_Layer: 0
   m_Name: Pillow1_socket
   m_TagString: Untagged
@@ -29561,6 +29697,18 @@ MonoBehaviour:
   m_SocketActive: 1
   m_InteractableHoverScale: 1
   m_RecycleDelayTime: 1
+--- !u!114 &2144900754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144900750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 654b8b9737572de48935cd6465380fa6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!33 &18308581863563434
 MeshFilter:
   m_ObjectHideFlags: 0

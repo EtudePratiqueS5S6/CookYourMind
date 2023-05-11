@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TidyIncrDifficulty3 : MonoBehaviour
+public class TidyIncr : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {

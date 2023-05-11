@@ -79,6 +79,8 @@ public class TidyDifficulty2 : MonoBehaviour
         tidy8.SetActive(false);
         tidy9.SetActive(false);
 
+        kids.Play();
+
         // Activer tous les objets de la liste
         untidy1.SetActive(true);
         untidy2.SetActive(true);

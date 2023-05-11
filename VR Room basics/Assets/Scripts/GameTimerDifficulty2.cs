@@ -14,7 +14,7 @@ public class GameTimerDifficulty2 : MonoBehaviour
         {
             // Arrêter la partie
             Debug.Log("Temps écoulé !");
-            Time.timeScale = 0f;
+            ExitScenes.ExitScene("Fin");
         }
     }
 }
