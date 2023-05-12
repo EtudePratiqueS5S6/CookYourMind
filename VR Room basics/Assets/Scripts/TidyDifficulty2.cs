@@ -39,7 +39,7 @@ public class TidyDifficulty2 : MonoBehaviour
     {
         //temps d'attentre avant le dérangement
         time = (int)Time.time;
-        event1 = 120;
+        event1 = 30;
     }
 
     void Start()
@@ -56,11 +56,12 @@ public class TidyDifficulty2 : MonoBehaviour
 
     void Update()
     {
+        time = (int)Time.time;
         if (time == event1)
         {
             EnableObjectsAfterDuration();
         }
-        if (nbrTidyObjects == 9)
+        if (nbrTidyObjects >= 9)
         {
             ExportSucces();
         }
@@ -68,6 +69,8 @@ public class TidyDifficulty2 : MonoBehaviour
 
     void EnableObjectsAfterDuration()
     {
+        kids.Play();
+
         //Désactiver tous les objets rangés
         tidy1.SetActive(false);
         tidy2.SetActive(false);
@@ -79,9 +82,7 @@ public class TidyDifficulty2 : MonoBehaviour
         tidy8.SetActive(false);
         tidy9.SetActive(false);
 
-        kids.Play();
-
-        // Activer tous les objets de la liste
+                // Activer tous les objets de la liste
         untidy1.SetActive(true);
         untidy2.SetActive(true);
         untidy3.SetActive(true);
@@ -91,15 +92,18 @@ public class TidyDifficulty2 : MonoBehaviour
         untidy7.SetActive(true);
         untidy8.SetActive(true);
         untidy9.SetActive(true);
+        Debug.Log("c'est le bazard");
     }
 
     public static void IncrNbrObject()
     {
         nbrTidyObjects++;
+        Debug.Log("rangement d'un object");
     }
     public static void DesincrNbrObject()
     {
         nbrTidyObjects--;
+        Debug.Log("dérangement d'un object");
     }
     
     private void ExportSucces()
@@ -112,5 +116,20 @@ public class TidyDifficulty2 : MonoBehaviour
             sw.Flush();
             Debug.Log(string.Format("Piece rangée"));
         }
+    }
+
+    private void OnDestroy()
+    {
+        if (!isHeaderWritten)
+        {
+            // enregestrement de l'echec si une etape autre n'a pas été respectée (expl : pizza retiree trop tot)
+            sw.Write("{0}\t{1}\t{2}\tPiece rangée\tEchec\n", ID_partie, nom, prenom);
+            isHeaderWritten = true;
+            Debug.Log("Piece pas rangée");
+            // Flush les données pour s'assurer qu'elles sont bien écrites dans le fichier
+            sw.Flush();
+        }
+        sw.Close();
+
     }
 }

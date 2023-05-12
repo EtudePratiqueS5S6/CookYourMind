@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameTimerDifficulty2 : MonoBehaviour
 {
-    public float gameDuration = 600f; // 10 minutes in seconds
+    public float gameDuration = 150f; // 10 minutes in seconds
     private float timer = 0f;
 
     void Update()

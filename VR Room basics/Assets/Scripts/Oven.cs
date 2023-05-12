@@ -17,7 +17,6 @@ public class Oven : MonoBehaviour
     public GameObject fourLight;
 
     private bool isCooking = false;
-    private bool minut = true;
     private bool cuisson = true;
     private bool brule = false;
     private float cookingTimer = 0f;
@@ -57,11 +56,6 @@ public class Oven : MonoBehaviour
                 // Plat cramé
                 Debug.Log(string.Format("Plat cramé"));
                 cuitToCrame();
-                brule = true;
-                isCooking = false;
-                // Éteindre la lumière du four
-                fourLight.SetActive(false);
-
                 // Réinitialiser le minuteur
                 cookingTimer = 0f;
 
@@ -71,10 +65,8 @@ public class Oven : MonoBehaviour
             {
                 //si le temps de cuisson est atteint
                 // Plat cuit
-                playAudio();
                 cruToCuit();
-                minut = false;
-                cuisson = false;
+                
             }
         }
     }
@@ -114,21 +106,17 @@ public class Oven : MonoBehaviour
         }
     }
 
-    private void playAudio()
-    {
-        //permet de jouer l'audio de la sonnette qu'une seule fois malgré le update()
-        if (minut)
-        {
-            Debug.Log(string.Format("Plat cuit"));
-            minuteur.Play();
-        }
-    }
+    
 
     private void cruToCuit()
     {
         //permet de remplacer la pizza cru par la pizza cuite qu'une seule fois malgré le update()
         if (cuisson)
         {
+            
+            minuteur.Play();
+            cuisson = false;
+
             Debug.Log(string.Format("Remplacement pizza cru"));
             mozza.SetActive(false);  
             veg1.SetActive(false);  
@@ -146,10 +134,16 @@ public class Oven : MonoBehaviour
         //permet de remplacer la pizza cuite par la pizza cramée qu'une seule fois malgré le update()
         if (!brule)
         {
+            brule = true;
+            isCooking = false;
+            // Éteindre la lumière du four
+            fourLight.SetActive(false);
+
             Debug.Log(string.Format("Remplacement pizza cuite"));
             platCuit.SetActive(false);
             platCrame.transform.position = pos;
             platCrame.SetActive(true);
+            
         }
     }
 
@@ -186,7 +180,6 @@ public class Oven : MonoBehaviour
             // Flush les données pour s'assurer qu'elles sont bien écrites dans le fichier
             sw.Flush();
         }
-        // Ferme le StreamWriter lorsque le jeu est quitté
-        sw.Close();
+        
     }
 }

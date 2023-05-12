@@ -53,6 +53,7 @@ public class ValidSetTable : MonoBehaviour
         {
             //si on a jamais ecrit dans le csv alors le succes n'a pas ete enregistré donc c'est un echec
             sw.Write("{0}\t{1}\t{2}\tTable mise\tEchec\n", ID_partie, nom, prenom);
+
             isHeaderWritten = true;
             Debug.Log(string.Format("Echec table mise"));
             // Flush les données pour s'assurer qu'elles sont bien écrites dans le fichier
