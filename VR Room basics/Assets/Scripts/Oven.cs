@@ -18,7 +18,7 @@ public class Oven : MonoBehaviour
 
     private bool isCooking = false;
     private bool cuisson = true;
-    private bool brule = false;
+    private bool brule = true;
     private float cookingTimer = 0f;
     private float cookingTime = 15f; // 15 secondes
     private Vector3 pos;
@@ -73,12 +73,12 @@ public class Oven : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Plaque") && !isCooking)
+        if (other.gameObject.CompareTag("Plaque") && !isCooking && !cuisson )
         {
             Debug.Log(string.Format("Lancement de la cuisson"));
             // Plat cru placé sur la socket
             isCooking = true;
-
+            
             // Allumer la lumière du four
             fourLight.SetActive(true);
 
@@ -91,7 +91,7 @@ public class Oven : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.CompareTag("Plaque") && !brule && !cuisson)
+        if (other.gameObject.CompareTag("Plaque") &&  !cuisson)
         {
             // Plat cru retiré de la socket
             isCooking = false;
@@ -132,9 +132,9 @@ public class Oven : MonoBehaviour
     private void cuitToCrame()
     {
         //permet de remplacer la pizza cuite par la pizza cramée qu'une seule fois malgré le update()
-        if (!brule)
+        if (brule)
         {
-            brule = true;
+            brule = false;
             isCooking = false;
             // Éteindre la lumière du four
             fourLight.SetActive(false);
@@ -143,6 +143,7 @@ public class Oven : MonoBehaviour
             platCuit.SetActive(false);
             platCrame.transform.position = pos;
             platCrame.SetActive(true);
+            
             
         }
     }
