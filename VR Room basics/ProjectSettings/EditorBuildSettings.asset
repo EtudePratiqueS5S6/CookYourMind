@@ -19,13 +19,16 @@ EditorBuildSettings:
     guid: 6ac29aafe11903547bb46e3226435338
   - enabled: 1
     path: Assets/Scenes/Difficulte3.unity
-    guid: ad5fd59ac632f114580c6f84b294e73c
+    guid: 9c08723d669dcc44498aac6a8bb8056f
   - enabled: 1
     path: Assets/Scenes/Fin.unity
     guid: 554964a3b9c21eb409a1641aeb354f2c
   - enabled: 0
-    path: Assets/Scenes/cuisine nul.unity
-    guid: e93e2a7c92f0fa545828a8e5722bc1e9
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ed72be55522c8448bae8b0d66fa21adf,
       type: 2}

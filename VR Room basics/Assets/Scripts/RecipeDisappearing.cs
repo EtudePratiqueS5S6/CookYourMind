@@ -11,7 +11,7 @@ public class RecipeDisappearing : MonoBehaviour
     {
         //temps d'attentre avant la disparition initialisé avant le lancement de la scène
         time = (int)Time.time;
-        event1 = 180;
+        event1 = 210;
     }
     
 

@@ -37,7 +37,7 @@ public class SaveNames : MonoBehaviour
     {
         // G?n?re un nom de fichier unique bas? sur la date et l'heure actuelles
         string date = string.Format("{0:yyyy-MM-dd_HH-mm-ss}", DateTime.Now);
-        string fileName = "Données patients";
+        string fileName = string.Format("Données_patients.csv");
         csvFilePath = Application.dataPath + "/" + fileName;
         ID_partie = date;
     }

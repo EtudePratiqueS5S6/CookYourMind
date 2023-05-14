@@ -73,7 +73,7 @@ public class Oven : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Plaque") && !isCooking && !cuisson )
+        if (other.gameObject.CompareTag("Plaque") && !isCooking && cuisson )
         {
             Debug.Log(string.Format("Lancement de la cuisson"));
             // Plat cru placé sur la socket
