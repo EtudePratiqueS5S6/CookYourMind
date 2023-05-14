@@ -20,7 +20,7 @@ public class PackageDelivery : MonoBehaviour
     {
         //temps d'attentre avant la livraison initialisé avant le lancement de la scène
         time = (int)Time.time;
-        event1 = 30;
+        event1 = 120;
     }
 
     void Start()

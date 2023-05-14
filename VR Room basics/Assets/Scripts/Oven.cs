@@ -20,7 +20,7 @@ public class Oven : MonoBehaviour
     private bool cuisson = true;
     private bool brule = true;
     private float cookingTimer = 0f;
-    private float cookingTime = 15f; // 15 secondes
+    private float cookingTime = 180f; // 15 secondes
     private Vector3 pos;
 
 
@@ -50,7 +50,7 @@ public class Oven : MonoBehaviour
             //si la pizza est en train de cuire on continue d'incrementer le timer
             cookingTimer += Time.deltaTime;
 
-            if (cookingTimer >= cookingTime + 15f)
+            if (cookingTimer >= cookingTime + 30f)
             {
                 //si le temps de cuisson est largement depassé
                 // Plat cramé

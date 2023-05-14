@@ -39,7 +39,7 @@ public class TidyDifficulty2 : MonoBehaviour
     {
         //temps d'attentre avant le dérangement
         time = (int)Time.time;
-        event1 = 30;
+        event1 = 10;
     }
 
     void Start()
