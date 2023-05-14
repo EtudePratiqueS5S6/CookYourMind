@@ -92,10 +92,10 @@ public class PizzaComplete : MonoBehaviour
         // enregistrement du succes si la pizza est complete et dans le bon ordre
         if (!isHeaderWritten)
         {
-            sw.Write("{0}\t{1}\t{2}\tPizza complete\tEchec : mauvais ordre\n", ID_partie, nom, prenom);
+            sw.Write("{0}\t{1}\t{2}\tPizza complete\tEchec : Mauvais ordre\n", ID_partie, nom, prenom);
             isHeaderWritten = true;
             sw.Flush();
-            Debug.Log(string.Format("Echec pizza mauvais ordre"));
+            Debug.Log(string.Format("Echec pizza : Mauvais ordre"));
         }
     }
     

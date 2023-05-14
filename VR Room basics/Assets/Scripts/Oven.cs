@@ -164,7 +164,7 @@ public class Oven : MonoBehaviour
         // enregistr ment de l'echec si la pizza crame
         if (!isHeaderWritten)
         {
-            sw.Write("{0}\t{1}\t{2}\tPizza cuite\tEchec : pizza cramée\n", ID_partie, nom, prenom);
+            sw.Write("{0}\t{1}\t{2}\tPizza cuite\tEchec : Pizza brulée\n", ID_partie, nom, prenom);
             isHeaderWritten = true;
             sw.Flush();
         }

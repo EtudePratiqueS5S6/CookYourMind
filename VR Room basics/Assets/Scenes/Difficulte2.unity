@@ -1535,10 +1535,10 @@ HingeJoint:
     targetVelocity: 0
     force: 0
     freeSpin: 0
-  m_UseLimits: 0
+  m_UseLimits: 1
   m_Limits:
-    min: 0
-    max: 0
+    min: -74.90166
+    max: 8.224295
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -39772,8 +39772,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.1890949, y: 0.30689815, z: 0.72701424}
-  m_Center: {x: 0.2623467, y: 0.72225356, z: -1.1932594}
+  m_Size: {x: 0.18909493, y: 0.30664006, z: 0.72701424}
+  m_Center: {x: 0.26234642, y: 0.72238594, z: -1.1932558}
 --- !u!65 &6285086010313650361
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39785,8 +39785,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.1017307, y: 0.049156375, z: 0.8126365}
-  m_Center: {x: -0.19397128, y: 0.5929846, z: -1.2366979}
+  m_Size: {x: 0.95433193, y: 0.049156435, z: 0.73195904}
+  m_Center: {x: -0.12027176, y: 0.5929881, z: -1.1963549}
 --- !u!65 &6285086010313650362
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39798,8 +39798,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.14803593, y: 0.23633674, z: 0.7288816}
-  m_Center: {x: -0.67080617, y: 0.7575458, z: -1.1925279}
+  m_Size: {x: 0.14803593, y: 0.25770774, z: 0.72888154}
+  m_Center: {x: -0.67080563, y: 0.7468615, z: -1.1925262}
 --- !u!65 &6285086010313650363
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39811,8 +39811,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.1017307, y: 0.30595317, z: 3.2731314}
-  m_Center: {x: -0.19397122, y: 0.7227439, z: 0.8064823}
+  m_Size: {x: 1.1017307, y: 0.25843892, z: 3.2731314}
+  m_Center: {x: -0.19397122, y: 0.7465054, z: 0.80648184}
 --- !u!65 &6285086010313650364
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39824,8 +39824,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.1017307, y: 0.3053079, z: 1.0478338}
-  m_Center: {x: -0.19397113, y: 0.7230786, z: -2.0793087}
+  m_Size: {x: 1.1017307, y: 0.2574384, z: 1.0478338}
+  m_Center: {x: -0.19397105, y: 0.7470144, z: -2.079308}
 --- !u!4 &6285086010313650373
 Transform:
   m_ObjectHideFlags: 0
