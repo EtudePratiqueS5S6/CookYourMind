@@ -121,12 +121,12 @@ public class TidyDifficulty3 : MonoBehaviour
         // enregistrement du succes si la piece est rangé mais les oreillers pas dans le bon ordre
         if (!isHeaderWritten)
         {
-            sw.Write("{0}\t{1}\t{2}\tPiece rangée\tSucces\n", ID_partie, nom, prenom);
-            sw.Write("{0}\t{1}\t{2}\tOrdre oreillers\tEchec\n", ID_partie, nom, prenom);
+            sw.Write("{0}\t{1}\t{2}\tPièce rangée\tSucces\n", ID_partie, nom, prenom);
+            sw.Write("{0}\t{1}\t{2}\tPlace oreillers\tEchec\n", ID_partie, nom, prenom);
 
             isHeaderWritten = true;
             sw.Flush();
-            Debug.Log(string.Format("Piece rangée mais oreillers dans le mauvais ordre"));
+            Debug.Log(string.Format("Pièce rangée mais oreillers dans le mauvais ordre"));
         }
     }
     private void ExportFullSucces()
@@ -134,8 +134,8 @@ public class TidyDifficulty3 : MonoBehaviour
         // enregistrement du succes si la piece est rangé avec les oreillers dans le bon ordre
         if (!isHeaderWritten)
         {
-            sw.Write("{0}\t{1}\t{2}\tPiece rangée\tSucces\n", ID_partie, nom, prenom);
-            sw.Write("{0}\t{1}\t{2}\tOrdre oreillers\tSucces\n", ID_partie, nom, prenom);
+            sw.Write("{0}\t{1}\t{2}\tPièce rangée\tSucces\n", ID_partie, nom, prenom);
+            sw.Write("{0}\t{1}\t{2}\tPlace oreillers\tSucces\n", ID_partie, nom, prenom);
 
             isHeaderWritten = true;
             sw.Flush();
