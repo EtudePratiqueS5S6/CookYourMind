@@ -38,7 +38,7 @@ public class Oven : MonoBehaviour
         pos = gameObject.transform.position;
         Debug.Log(string.Format("Initialisation de la pos de la pizza ok"));
         // Ouvre le fichier CSV en mode append pour ajouter des données à la fin
-        sw = new StreamWriter(filePath);
+        sw = new StreamWriter(filePath, true);
         nom = SaveNames.getNom();
         prenom = SaveNames.getPrenom();
         ID_partie = SaveNames.getID();
