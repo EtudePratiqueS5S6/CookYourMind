@@ -1787,6 +1787,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firstNameField: {fileID: 2113145462}
   lastNameField: {fileID: 660943272}
+  bouton1: {fileID: 421576410}
+  bouton2: {fileID: 812286471}
+  bouton3: {fileID: 979690344}
 --- !u!1 &855543479
 GameObject:
   m_ObjectHideFlags: 0
@@ -5803,18 +5806,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 832206607}
-        m_TargetAssemblyTypeName: SaveNames, Assembly-CSharp
-        m_MethodName: SaveToCSV
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 858355127}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
