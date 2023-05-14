@@ -49,15 +49,19 @@ public class SaveNames : MonoBehaviour
         {
             case 1:
                 ID_partie = string.Format("{0:yyyy-MM-dd_HH-mm-ss}_diff1", DateTime.Now);
+                SaveToCSV();
                 break;
             case 2:
                 ID_partie = string.Format("{0:yyyy-MM-dd_HH-mm-ss}_diff2", DateTime.Now);
+                SaveToCSV();
                 break;
             case 3:
                 ID_partie = string.Format("{0:yyyy-MM-dd_HH-mm-ss}_diff3", DateTime.Now);
+                SaveToCSV();
                 break;
             default:
                 ID_partie = string.Format("{0:yyyy-MM-dd_HH-mm-ss}", DateTime.Now);
+                SaveToCSV();
                 break;
         }
     }
