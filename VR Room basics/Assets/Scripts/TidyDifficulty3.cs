@@ -58,6 +58,7 @@ public class TidyDifficulty3 : MonoBehaviour
 
     void Update()
     {
+        time = (int)Time.time;
         if (time == event1)
         {
             EnableObjectsAfterDuration();
@@ -75,6 +76,7 @@ public class TidyDifficulty3 : MonoBehaviour
 
     void EnableObjectsAfterDuration()
     {
+        kids.Play();
         //Désactiver tous les objets rangés
         tidy1.SetActive(false);
         tidy2.SetActive(false);
@@ -86,7 +88,6 @@ public class TidyDifficulty3 : MonoBehaviour
         tidy8.SetActive(false);
         tidy9.SetActive(false);
 
-        kids.Play();
         // Activer tous les objets de la liste
         untidy1.SetActive(true);
         untidy2.SetActive(true);
@@ -141,5 +142,6 @@ public class TidyDifficulty3 : MonoBehaviour
             sw.Flush();
             Debug.Log(string.Format("Piece rangée et oreillers dans le bon ordre"));
         }
+        sw.Close();
     }
 }

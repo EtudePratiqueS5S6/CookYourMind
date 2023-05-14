@@ -20,7 +20,7 @@ public class Oven : MonoBehaviour
     private bool cuisson = true;
     private bool brule = true;
     private float cookingTimer = 0f;
-    private float cookingTime = 180f; // 15 secondes
+    private float cookingTime = 60f; // 15 secondes
     private Vector3 pos;
 
 
