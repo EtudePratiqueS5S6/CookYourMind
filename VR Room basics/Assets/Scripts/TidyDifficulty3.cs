@@ -38,14 +38,14 @@ public class TidyDifficulty3 : MonoBehaviour
 
     void Awake()
     {
-        //temps d'attentre avant le dérangement
+        //temps d'attentre avant le dï¿½rangement
         time = (int)Time.time;
-        event1 = 120;
+        event1 = 300;
     }
 
     void Start()
     {
-        //on recupère le StreamWritter deja ouvert dans le script Oven
+        //on recupï¿½re le StreamWritter deja ouvert dans le script Oven
         sw = Oven.sw;
         nom = SaveNames.getNom();
         prenom = SaveNames.getPrenom();
@@ -77,7 +77,7 @@ public class TidyDifficulty3 : MonoBehaviour
     void EnableObjectsAfterDuration()
     {
         kids.Play();
-        //Désactiver tous les objets rangés
+        //Dï¿½sactiver tous les objets rangï¿½s
         tidy1.SetActive(false);
         tidy2.SetActive(false);
         tidy3.SetActive(false);
@@ -119,28 +119,28 @@ public class TidyDifficulty3 : MonoBehaviour
 
     private void ExportHalfSucces()
     {
-        // enregistrement du succes si la piece est rangé mais les oreillers pas dans le bon ordre
+        // enregistrement du succes si la piece est rangï¿½ mais les oreillers pas dans le bon ordre
         if (!isHeaderWritten)
         {
-            sw.Write("{0}\t{1}\t{2}\tPièce rangée\tSucces\n", ID_partie, nom, prenom);
+            sw.Write("{0}\t{1}\t{2}\tPiï¿½ce rangï¿½e\tSucces\n", ID_partie, nom, prenom);
             sw.Write("{0}\t{1}\t{2}\tPlace oreillers\tEchec\n", ID_partie, nom, prenom);
 
             isHeaderWritten = true;
             sw.Flush();
-            Debug.Log(string.Format("Pièce rangée mais oreillers dans le mauvais ordre"));
+            Debug.Log(string.Format("Piï¿½ce rangï¿½e mais oreillers dans le mauvais ordre"));
         }
     }
     private void ExportFullSucces()
     {
-        // enregistrement du succes si la piece est rangé avec les oreillers dans le bon ordre
+        // enregistrement du succes si la piece est rangï¿½ avec les oreillers dans le bon ordre
         if (!isHeaderWritten)
         {
-            sw.Write("{0}\t{1}\t{2}\tPièce rangée\tSucces\n", ID_partie, nom, prenom);
+            sw.Write("{0}\t{1}\t{2}\tPiï¿½ce rangï¿½e\tSucces\n", ID_partie, nom, prenom);
             sw.Write("{0}\t{1}\t{2}\tPlace oreillers\tSucces\n", ID_partie, nom, prenom);
 
             isHeaderWritten = true;
             sw.Flush();
-            Debug.Log(string.Format("Piece rangée et oreillers dans le bon ordre"));
+            Debug.Log(string.Format("Piece rangï¿½e et oreillers dans le bon ordre"));
         }
         sw.Close();
     }
